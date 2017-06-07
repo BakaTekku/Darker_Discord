@@ -2,8 +2,8 @@
 A darker Discord theme made by Night#9471 for use with BeautifulDiscord.
 
 ## How to Install
-1. Save autotheme.css: https://github.com/BakaTekku/Discord_Theme/blob/master/autotheme.css
-<br>Make sure to save type as all files.
+1. Save autotheme.css: https://raw.githubusercontent.com/BakaTekku/Discord_Theme/master/autotheme.css
+<br>Make sure to save as type all files.
 
 2. Install Python 3.6.1: https://www.python.org/ftp/python/3.6.1/python-3.6.1.exe
 <br>Make sure to checkbox the option to add python to path on installer.
