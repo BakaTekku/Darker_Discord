@@ -884,6 +884,23 @@ component.member-role {
     border-top-right-radius: 0px;
 }
 
+.alert.form.has-icon:before {
+    background-color: transparent;
+}
+
+.form .form-inner:last-child {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.alert.form .form-inner h4 {
+    color: #fff;
+}
+
+.alert.form .form-inner p {
+    color: #aaaaaa;
+}
+
 #instant-invite-modal-advanced .form-actions {
     background-color: #161616;
 }
