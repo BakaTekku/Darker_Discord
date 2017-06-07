@@ -1335,20 +1335,21 @@ form.modal-content.form.alert.has-icon {
 }
 /* File uploader */
 .channel-textarea-autocomplete-inner {
-    background: #161616;
+    background: #161616 !important ;
 }
 
 .channel-textarea-autocomplete-inner ul li.active {
-    background: #111111;
+    background: #111111 !important;
 }
+
 .channel-textarea-autocomplete-inner ul li {
-    color: #eeeeee;
+    color: #eeeeee !important;
 }
 
 .channel-textarea-autocomplete-inner header {
-    border-bottom: none;
+    border-bottom: none!important ;
 }
 
 .channel-textarea-autocomplete-inner:after {
-    border-bottom: none;
+    border-bottom: none!important ;
 }
