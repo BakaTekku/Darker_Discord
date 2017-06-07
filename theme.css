@@ -1117,7 +1117,7 @@ ground-size: 100px;
 }
 
 form.modal-content.form.alert.has-icon {
-  content:url(https://i.imgur.com/S2WyM21.png);
+  background-image:url(https://i.imgur.com/S2WyM21.png) !important;
 }
 /* create/join server modal */
 .create-guild-container {
