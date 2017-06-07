@@ -1333,3 +1333,22 @@ form.modal-content.form.alert.has-icon {
     border-color: #000000;
     background-color: #0a0a0a;
 }
+/* File uploader */
+.channel-textarea-autocomplete-inner {
+    background: #161616;
+}
+
+.channel-textarea-autocomplete-inner ul li.active {
+    background: #111111;
+}
+.channel-textarea-autocomplete-inner ul li {
+    color: #eeeeee;
+}
+
+.channel-textarea-autocomplete-inner header {
+    border-bottom: none;
+}
+
+.channel-textarea-autocomplete-inner:after {
+    border-bottom: none;
+}
