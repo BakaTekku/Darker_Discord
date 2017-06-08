@@ -353,10 +353,12 @@ textarea.has-results .channel-textarea-inner
     border-radius: 4px;
 }
 
-.private-channels .channel.selected,
-.private-channels .channel:hover {
-    background: -webkit-linear-gradient(left,#111111 85%,#131313);
-    background: linear-gradient(to right,#111111 85%,#131313);
+.private-channels .channel.selected a {
+    background-color: #111111;
+}
+
+.private-channels .channel:hover a {
+    background-color: #111111;
 }
 
 .theme-dark #friends {
