@@ -42,43 +42,6 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
   width:10px!important;
 }
 
-/* FIREFOX SCROLLBAR FIX */
-.scrollbar {
-    background-color: #161616 !important;
-}
-.ui-scroller-themed.ui-scroller-ghost-hairline .scrollbar .thumb { /* text channels */
-    background-color: #0f0f0f !important;
-}
-.ui-scroller-themed.ui-scroller-ghost-hairline .scrollbar .pad {
-    background-color: transparent !important;
-}
-.theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .track {
-    background-color: transparent;
-    border-color: transparent;
-}
-.theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .thumb {  /* members list */
-    background-color: #0f0f0f;
-    border-color: transparent;
-}
-.messages-wrapper .scroller-wrap.polyfill .scrollbar::after {
-    background-color: transparent !important;
-} 
-.ui-scroller-themed.ui-scroller-ghost .scrollbar .thumb {
-    background-color: #0a0a0a;
-}  
-.theme-dark .ui-scroller-wrap .scrollbar .pad {
-    background-color: transparent !important;        
-}
-.scroller-wrap .scrollbar .track {  /* changelog modal */
-    background: #0a0a0a;
-}
-.scroller-wrap .scrollbar .thumb {
-    background-color: #161616;
-}
-.scroller-wrap .scrollbar::after {
-    background-color: transparent;
-}
-
 /* Server List bar */
 .guilds-wrapper {
   background: #0a0a0a;
