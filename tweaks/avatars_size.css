@@ -1,0 +1,23 @@
+/* add code snippet to your main theme file. 
+ Change all 72px value to a size of your choice, sane range 48px - 128px 
+*/
+
+/* AVATARS SIZE*/
+.avatar-large {
+    width: 72px;
+    height: 72px;
+    background-size: 72px 72px;
+}
+
+.message-group .edit-message h2, .message-group .edit-message .avatar-large  {
+  display: none!important;
+}
+
+.message-group .edit-message {
+    margin: 6px -26px 0 -21px;
+}
+
+.message-group .edit-message {
+    padding-top: 0px!important;
+    padding-bottom: 0px;
+}

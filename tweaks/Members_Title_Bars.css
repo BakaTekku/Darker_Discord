@@ -1,0 +1,6 @@
+/* add this code snippet to your main theme file. */
+
+/* MEMBERS TITLE BARS */
+.theme-dark .channel-members h2 {
+    background-color: #0f0f0f;
+}

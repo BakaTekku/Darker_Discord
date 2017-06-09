@@ -1,0 +1,42 @@
+/* add only ONE code snippet to your main theme file. */
+
+/* ROUNDED AVATARS*/
+.guilds-wrapper .guilds .guild .guild-inner { 
+  -webkit-border-radius: 15px !important;
+  border-radius: 15px !important;
+}
+
+.avatar-large { 
+  -webkit-border-radius: 6px !important;
+  border-radius: 6px !important;
+}
+
+.avatar-small { 
+  -webkit-border-radius: 8px !important;
+  border-radius: 8px !important;
+}
+
+.avatarDefault-3jtQoc, .avatarSpeaking-3teDH6 { 
+  -webkit-border-radius: 5px !important;
+  border-radius: 5px !important;
+}
+
+
+
+
+/* SQUARE AVATARS */
+.guilds-wrapper .guilds .guild .guild-inner { 
+    border-radius: 0 !important;
+}
+
+.avatar-large { 
+    border-radius: 0 !important;
+}
+
+.avatar-small {
+    border-radius: 0 !important;
+}
+
+.avatarDefault-3jtQoc, .avatarSpeaking-3teDH6 {
+  border-radius: 0 !important;
+}

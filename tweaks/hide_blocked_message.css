@@ -1,0 +1,6 @@
+/* add this code snippet to your main theme file. */
+
+/* HIDE BLOCKED MESSAGE */
+.message-group-blocked {
+	display: none !important;
+}
