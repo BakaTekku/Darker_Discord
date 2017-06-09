@@ -41,6 +41,44 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 .scroller::-webkit-scrollbar {
   width:10px!important;
 }
+
+/* FIREFOX SCROLLBAR FIX */
+.scrollbar {
+    background-color: #161616 !important;
+}
+.ui-scroller-themed.ui-scroller-ghost-hairline .scrollbar .thumb { /* text channels */
+    background-color: #0f0f0f !important;
+}
+.ui-scroller-themed.ui-scroller-ghost-hairline .scrollbar .pad {
+    background-color: transparent !important;
+}
+.theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .track {
+    background-color: transparent;
+    border-color: transparent;
+}
+.theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .thumb {  /* members list */
+    background-color: #0f0f0f;
+    border-color: transparent;
+}
+.messages-wrapper .scroller-wrap.polyfill .scrollbar::after {
+    background-color: transparent !important;
+} 
+.ui-scroller-themed.ui-scroller-ghost .scrollbar .thumb {
+    background-color: #0a0a0a;
+}  
+.theme-dark .ui-scroller-wrap .scrollbar .pad {
+    background-color: transparent !important;        
+}
+.scroller-wrap .scrollbar .track {  /* changelog modal */
+    background: #0a0a0a;
+}
+.scroller-wrap .scrollbar .thumb {
+    background-color: #161616;
+}
+.scroller-wrap .scrollbar::after {
+    background-color: transparent;
+}
+
 /* Server List bar */
 .guilds-wrapper {
   background: #0a0a0a;
@@ -1035,17 +1073,32 @@ component.member-role {
 .channel-notification-settings {
     border-bottom: 1px solid #1c1c1c;
 }
-/* Alerts */
-.modal-content .form-inner p {
+/*Changelog modal window popup*/
+.markdown-modal {
+    background-color: #161616;
     color: #aaaaaa;
 }
 
-.mention {
-    color: #fffff;
+.markdown-modal .markdown-modal-header {
+    border-bottom: 1px solid #1c1c1c;
+    color: #cccccc;
 }
 
-ground-size: 100px;
-    background-color: transparent;
+.markdown-modal ul li {
+    color: #aaaaaa;
+}
+
+.markdown-modal .markdown-modal-footer {
+    border-top: 1px solid #1c1c1c;
+    color: #aaaaaa;
+    background-color: #161616;
+}
+.modal-content .form-inner p {
+    color: #aaaaaa;
+}
+/* Alerts */
+.mention {
+    color: #fffff;
 }
 
 .chat .new-messages-bar button:last-child {
@@ -1227,7 +1280,6 @@ form.modal-content.form.alert.has-icon {
 .theme-dark .hljs {
     background: #0a0a0a;
     color: #888888;
-
 }
 
 .theme-dark .message-group .embed {
