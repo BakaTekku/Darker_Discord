@@ -97,6 +97,11 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
     border-color: #0a0a0a;
 }
 
+.theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed {
+    border-color: #0a0a0a;
+    background: #141414;
+}
+
 .theme-dark .friends-table .messages .divider.divider-red>div, .theme-dark .messages-wrapper .messages .divider.divider-red>div {
     background: #f04747 !important;
 }
