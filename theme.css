@@ -86,6 +86,16 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 .theme-dark .message-group:not(.has-divider) {
     border-bottom-color: #1c1c1c;
 }
+/* Blocked Message */
+.theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
+    background: #0f0f0f;
+    color: #aaa;
+}
+
+.theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked {
+    background: #0f0f0f;
+    border-color: #0a0a0a;
+}
 
 .theme-dark .friends-table .messages .divider.divider-red>div, .theme-dark .messages-wrapper .messages .divider.divider-red>div {
     background: #f04747 !important;
