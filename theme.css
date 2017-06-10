@@ -77,6 +77,11 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
     border-bottom: none;
     box-shadow: 0 1px 0 rgba(0,0,0,.00);
 }
+/* Load more messages modal */
+.theme-dark .chat .has-more button {
+    background: #0f0f0f;
+    border: 1px solid #0e0e0e;
+}
 /* Chat messages Content */
 .chat .messages {
     background: #161616;
