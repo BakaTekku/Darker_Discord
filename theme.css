@@ -116,13 +116,13 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 /* Text input chat bar */
 .theme-dark .channel-textarea-inner
 {
-  border-color: #0f0f0f;
-  background-color: #161616;
+  border-color: #0e0e0e;
+  background-color: #0f0f0f;
 }
 
 .theme-dark .chat form
 {
-  background: #0f0f0f;
+  background: transparent;
   border-top: none;
   box-shadow: inset 16px 0px 16px -16px rgba(0, 0, 0, .8);
 }
@@ -141,7 +141,7 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 
 .theme-dark .chat form .typing
 {
-  background-color: #0f0f0f;
+  background-color: transparent;
   margin-left: 20px;
 }
 
@@ -162,6 +162,19 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 {
   background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_file_upload_white_24px.svg);
   background-color: hsla(0,0%,100%,.06);
+}
+
+.theme-dark .channel-textarea-emoji {
+    opacity: 0.6;
+}
+
+.channel-textarea-inner .channel-textarea-upload {
+    opacity: 0.6; 
+}
+
+.theme-dark .channel-textarea-inner .channel-textarea-upload:hover {
+    background-color: transparent;
+    opacity: 1;
 }
 
 .theme-dark .channel-
@@ -240,7 +253,6 @@ textarea.has-results .channel-textarea-inner
 
 .container-iksrDt {
     background: #0f0f0f;
-    border-top: solid 1px #1c1c1c;
 }
 /* connection info */
 .popout header {
