@@ -3,4 +3,5 @@
 /* MEMBERS TITLE BARS */
 .theme-dark .channel-members h2 {
     background-color: #0f0f0f;
+    line-height: 32px;
 }
