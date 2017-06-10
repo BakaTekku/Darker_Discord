@@ -1,0 +1,11 @@
+/* add this code snippet to your main theme file. */
+
+/* CHAT INPUT BACKGROUND */
+.theme-dark .chat form {
+    background: #0f0f0f !important;
+}
+
+.theme-dark .channel-textarea-inner {
+    border-color: #0f0f0f !important;
+    background-color: #161616 !important;
+}
