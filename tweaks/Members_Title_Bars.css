@@ -4,4 +4,5 @@
 .theme-dark .channel-members h2 {
     background-color: #0f0f0f;
     line-height: 32px;
+    font-weight: 600 !important;
 }
