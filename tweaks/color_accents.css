@@ -1,0 +1,142 @@
+/*
+Use your default text editor's find & replace function to 
+replace all #009933 with a hex color of your choice.
+*/
+
+
+
+/*changelog links*/
+.markdown-modal a {
+    color: #009933;
+}
+
+/* help modal links */
+.need-help-modal a:hover {
+    color: #009933;
+}
+
+.need-help-modal a {
+    color: #009933;
+}
+
+/*app links*/
+.app a {
+    color: #009933;
+}
+
+/* direct messages button */
+.guild-inner {
+  background-color: #009933 !important;
+}
+
+/*selected server highlight */
+.guilds-wrapper .guilds .guild.selected:before {
+    background: #009933;
+}
+
+/** send friend request */
+#user-profile-modal .actions .btn.add-friend:hover {
+    background: #009933;
+}
+
+#user-profile-modal .actions .btn.add-friend {
+    background: #009933;
+}
+
+/* add friend button*/
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+    background-color: #009933;
+}
+
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary {
+    background-color: #009933;
+}
+
+/* user profile page selected option*/
+#user-profile-modal .tab-bar-item.selected {
+    color: #009933!important;
+    border-bottom-color: #009933!important;
+}
+
+/* NEW MESSAGES BAR*/
+.chat .new-messages-bar {
+    background-color: #009933;
+}
+
+.chat .new-messages-bar:hover {
+    background-color: #009933;
+}
+
+/*HYPERLINK COLOR*/
+.theme-dark .message-group a {
+    color: #009933
+}
+
+/* @MENTION COLOR */
+.mention {
+    color: #009933;
+}
+
+.mentioned .mention:hover {
+    color: #cccccc;
+}
+
+.theme-dark .message-group .comment .markup .mention:hover {
+  background-color: transparent;
+    color: #cccccc;
+}
+
+/* TOOL TIPS */
+.tooltip {
+    background-color: #009933;
+}
+
+.tooltip.tooltip-top:after {
+    border-top-color: #009933;
+}
+
+.tooltip.tooltip-right:after {
+    border-right-color: #009933;
+}
+
+.tooltip.tooltip-bottom:after {
+    border-bottom-color: #009933;
+}
+
+/* USER SETTINGS */
+.buttonBrandFilled-3Mv0Ra {
+    background-color: #009933;
+}
+
+.buttonBrandFilledDefault-2Rs6u5:hover {
+    background-color: #009933;
+}
+
+.ui-tab-bar.SIDE .ui-tab-bar-item.selected {
+    background-color: #009933;
+}
+
+/*switch button color*/
+.ui-switch-checkbox:checked+.ui-switch {
+    background: #009933;
+}
+
+.ui-switch-wrapper:not(.disabled):not(.clear):hover .ui-switch-checkbox:checked+.ui-switch {
+    background: #009933;
+}
+
+/*discord nitro*/
+.ui-tab-bar.SIDE .ui-tab-bar-item.brand {
+    color: #009933;
+}
+
+/* slider bar color*/
+.ui-slider .slider-bar-fill {
+    background: #009933;
+}
+
+/*selected option color*/
+.radio-item.flex-horizontal.margin-bottom-8.checked.cardPrimaryEditable-2IQ7-V.card-3DrRmC {
+  border-color: #009933 !important;
+  background-color: #009933 !important;
+}
