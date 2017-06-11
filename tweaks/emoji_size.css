@@ -1,0 +1,9 @@
+/* add code snippet to your main theme file. 
+ Change all 42px value to a size of your choice, sane range 33px - 64px 
+*/
+
+/* EMOJI SIZE */
+.markup .emoji.jumboable[src*="emojis"] {
+  width: 42px !important;
+  height: 42px !important;
+}
