@@ -1,0 +1,16 @@
+/* add this code snippet to your main theme file.
+  CREDIT: GORO#6743 
+/* 
+
+
+/*Font tweak*/
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 50;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype');
+}
+
+body {
+    font-family: "Lato";
+}
