@@ -65,7 +65,11 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 }
 
 .nameUnreadText-1pxldj, .nameUnreadVoice-QK4gxH {
-    color: #aaaaaa;
+    color: #dddddd;
+}
+
+.nameMutedText-1YDcP-, .nameMutedVoice-26k4cP {
+    color: #333333;
 }
 
 .private-channels {
