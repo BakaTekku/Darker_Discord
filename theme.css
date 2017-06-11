@@ -570,6 +570,11 @@ component.member-role {
     color: #aaa;
 }
 /* Pinned messages */
+.messages-popout .channel-separator{
+    background-color: #0f0f0f;
+    line-height: 32px;
+}
+
 .theme-dark .themed-popout .header {
     background-color: #111111;
     box-shadow: 0 0px 3px #101010;
