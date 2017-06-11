@@ -1,8 +1,10 @@
+
 /* add this code snippet to your main theme file. */
 
 /* MEMBERS TITLE BARS */
 .theme-dark .channel-members h2 {
+    color: #cccccc;
     background-color: #0f0f0f;
-    line-height: 32px;
-    font-weight: 600 !important;
+    line-height: 32px;
+    font-weight: 600 !important;
 }
