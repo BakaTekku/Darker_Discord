@@ -27,6 +27,34 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 .theme-dark .ui-card-primary {
     background: #111111;
 }
+
+.theme-dark .cardPrimary-ZVL9Jr {
+    border-color: #060606;
+}
+
+.theme-dark .cardPrimaryEditable-2IQ7-V {
+    border-color: #060606;
+}
+
+.theme-dark .ui-radio-list-item {
+    box-shadow: inset 0 -1px 0 0 #1c1c1c;
+}
+
+.theme-dark .ui-tab-bar-separator {
+    background-color: #1c1c1c;
+}
+
+.theme-dark .divider-1G01Z9 {
+    background-color: #1c1c1c;
+}
+
+.theme-dark .user-settings-notifications .notifications-sound {
+    box-shadow: inset 0 -1px 0 0 #1c1c1c;
+}
+
+.theme-dark .user-settings-games .game {
+    box-shadow: 0 1px 0 0 #1c1c1c;
+}
 /* scroll bars style */
 .scroller::-webkit-scrollbar-thumb {
   border:1px solid transparent!important;
@@ -41,7 +69,6 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 .scroller::-webkit-scrollbar {
   width:10px!important;
 }
-
 /* Server List bar */
 .guilds-wrapper {
   background: #0a0a0a;
@@ -99,6 +126,10 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
     background: #0f0f0f;
     color: #aaa;
+}
+/* @mention hover */
+.theme-dark .message-group .comment .markup .mention:hover {
+    background-color: transparent;
 }
 
 .theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked {
@@ -1053,7 +1084,7 @@ component.member-role {
 .theme-dark .ui-selectable-item:hover {
   background-color: #111111;
 }
-/* Nptfication settings */
+/* Notification settings */
 .form .control-group label {
     color: #aaaaaa;
 }
@@ -1118,7 +1149,7 @@ component.member-role {
 }
 
 .theme-dark .message-group .comment .markup .mention {
-    background-color: #141414;
+    background-color: #131313;
 }
 
 form.modal-content.form.alert.has-icon {
