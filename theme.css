@@ -1,6 +1,19 @@
+/*
 html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
   text-shadow: 1px 1px #000000;
 }
+*/
+
+::selection {
+  background: #000 !important;
+  color: #ffffff;
+}
+
+::-moz-selection {
+  background: #000 !important;
+  color: #ffffff;
+}
+
 /*Discord Boot*/
 .connecting {
     background: #111111;
@@ -97,6 +110,23 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 
 .nameMutedText-1YDcP-, .nameMutedVoice-26k4cP {
     color: #333333;
+}
+
+.slider-handle span:before {
+    border-top-color: #000000;
+}
+
+.slider-handle span:after {
+    border-top-color: #000000;
+}
+
+.slider-handle span {
+    background-color: #000000;
+    border: none;
+}
+
+.slider-handle {
+    border: none;
 }
 
 .private-channels {
@@ -299,7 +329,7 @@ textarea.has-results .channel-textarea-inner
     background-color: #0f0f0f;
     color: #aaa;
     border-radius: 3px 3px 0 0;
-    box-shadow: 0 0px 3px #101010;
+    box-shadow: 0 0px 3px #000000;
 }
 /* Voice Debug info */
 .tab-bar.SIDE .tab-bar-item.selected, .tab-bar.SIDE .tab-bar-item:hover {
@@ -463,6 +493,11 @@ textarea.has-results .channel-textarea-inner
     background: #111;
 }
 /* User Profile popup */
+.user-popout .avatar-wrapper .avatar-popout {
+  border: 4px solid #333;
+  background-color: #333;
+}
+
 .user-popout .header {
   background: #222222 url(https://i.imgur.com/u7lHZZ3.png);
 }
@@ -539,7 +574,7 @@ component.member-role {
 
 .popout {
     padding: 0;
-    box-shadow: 0 0px 3px #101010;
+    box-shadow: 0 0px 3px #000000;
 }
 
 .popout section {
@@ -608,13 +643,13 @@ component.member-role {
 
 .theme-dark .themed-popout .header {
     background-color: #111111;
-    box-shadow: 0 0px 3px #101010;
+    box-shadow: 0 0px 3px #000000;
 }
 
 .theme-dark .themed-popout {
     background-color: #161616;
     border: none;
-    box-shadow: 0 0px 3px #101010;
+    box-shadow: 0 0px 3px #000000;
 }
 
 .theme-dark .messages-popout-wrap .messages-popout .message-group:hover {
@@ -625,6 +660,7 @@ component.member-role {
 .theme-dark .messages-popout-wrap .messages-popout .message-group {
     border-color: transparent;
     background-color: transparent;
+    border-bottom: solid 1px #1c1c1c;
 }
 
 .theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
@@ -640,7 +676,7 @@ component.member-role {
     background-color: #161616;
     border: none;
     border-radius: 5px;
-    box-shadow: 0 0px 3px #101010;
+    box-shadow: 0 0px 3px #000000;
 }
 
 .theme-dark .search-answer, .theme-dark .search-filter {
@@ -802,7 +838,7 @@ component.member-role {
 .emoji-picker {
     background-color: #161616;
     border: 0px;
-    box-shadow: 0 0px 3px #101010;
+    box-shadow: 0 0px 3px #000000;
     border-radius: 0px;
 }
 
@@ -857,6 +893,14 @@ component.member-role {
     color: #888888;
 }
 /* Invite link modal */
+.clipboard-input-inner button:first-of-type:before {
+    background: transparent !important;
+}
+
+.clipboard-input-inner button {
+    border-left: none;
+}
+
 #instant-invite-modal .form-header header {
     color: #aaaaaa;
 }
@@ -868,6 +912,19 @@ component.member-role {
 .clipboard-input-inner {
     background: #0a0a0a;
     border: none;
+}
+
+#instant-invite-modal .clipboard-input-inner input {
+    background: #0a0a0a;
+}
+
+.form .is-focused:not(.is-open)>.Select-control {
+    border: 1px solid #000000;
+}
+
+.form .Select-option.is-focused {
+    background: #111111;
+    color: #cccccc;
 }
 
 .form .form-header {
@@ -953,7 +1010,7 @@ component.member-role {
 
 .checkbox .checkbox-inner span {
     border: 2px solid #000000;
-    background: #0a0a0a;
+    background: #111111;
 }
 
 .form .Select-control {
@@ -1007,6 +1064,19 @@ component.member-role {
 .buttonWhiteOutlined-2KwPTg:hover {
     border-color: #1c1c1c;
 }
+
+#autocomplete-popout .row.selected, #autocomplete-popout .row:hover {
+    background: #111111;
+}
+
+.popout.popout-bottom-right header:before, .popout.popout-bottom header:before {
+    border-bottom-color: #000000;
+}
+
+#autocomplete-popout .empty:hover {
+    background-color: transparent;
+}
+
 /* region selector*/
 .region-select-modal {
     background: #161616;
@@ -1156,6 +1226,18 @@ form.modal-content.form.alert.has-icon {
   background-image:url(https://i.imgur.com/S2WyM21.png) !important;
 }
 /* create/join server modal */
+.create-guild-container .action:hover.join .btn {
+    background-color: #000000!important;
+}
+
+.create-guild-container .action.join .btn {
+    background-color: #000000!important;
+}
+
+.create-guild-container .action.join .action-header {
+    color: #cccccc;
+}
+
 .create-guild-container {
     border-radius: 0px;
     background-color: transparent;
@@ -1173,6 +1255,16 @@ form.modal-content.form.alert.has-icon {
     display: none;
 }
 
+.create-guild-container .action.create .action-icon {
+    background: url(https://i.imgur.com/zi2NJ1r.png) 50% no-repeat !important;
+    background-size: 112px 78px !important;
+}
+
+.create-guild-container .action.join .action-icon {
+    background: url(https://i.imgur.com/6HYQCCv.png) 50% no-repeat !important;
+    background-size: 178.5px 78px !important;
+}
+
 .region-select .region-select-inner {
     border: 1px solid #000000;
     background: #0a0a0a;
@@ -1180,6 +1272,32 @@ form.modal-content.form.alert.has-icon {
 
 .region-select button {
     border: 1px solid #000000;
+}
+
+.create-guild-container .join-server h5 {
+    color: #cccccc;
+}
+
+.create-guild-container p {
+    color: #aaa;
+}
+
+.create-guild-container .join-server .link-container label {
+    color: #aaa;
+}
+
+.form .control-group input[type=text] {
+    background: #0a0a0a;
+    color: #cccccc;
+}
+
+.create-guild-container .join-server .link-container input {
+    border: none;
+}
+
+.create-guild-container .join-server .btn-primary {
+    width: 100px;
+    background-color: #000000;
 }
 /* Right-click Popout */
 .small-popout-box {
@@ -1202,7 +1320,7 @@ form.modal-content.form.alert.has-icon {
   background: #161616!important;
   border-radius: 2px;
   padding: 0px 0px;
-  box-shadow: 0 0px 3px #101010;
+  box-shadow: 0 0px 3px #000000 !important;
 }
 
 
@@ -1212,7 +1330,7 @@ form.modal-content.form.alert.has-icon {
 
 .theme-dark.context-menu .context-menu {
     border: none;
-    box-shadow: 0 0px 3px #101010;
+    box-shadow: 0 0px 3px #000000;
 }
 
 .context-menu .item:first-of-type {
@@ -1242,13 +1360,13 @@ form.modal-content.form.alert.has-icon {
 }
 
 .theme-dark .checkbox .checkbox-inner span {
-    border-color: #000;
+    border-color: #202020;
 }
 /*incoming call*/
 .theme-dark .incoming-call-inner {
     background: #161616;
     border-color: #1c1c1c;
-    box-shadow: 0 0px 3px #101010;
+    box-shadow: 0 0px 3px #000000;
 }
 /*private video call*/
 .theme-dark .ui-video {
@@ -1332,7 +1450,7 @@ form.modal-content.form.alert.has-icon {
 /* Quick switch menu  */
 .quickswitcher.dark {
     background-color: #161616;
-    box-shadow: 0 0px 3px #101010;
+    box-shadow: 0 0px 3px #000000;
 }
 
 .quickswitcher.dark .big-input {
@@ -1370,4 +1488,25 @@ form.modal-content.form.alert.has-icon {
 
 .channel-textarea-autocomplete-inner:after {
     border-bottom: none !important;
+}
+
+.upload-modal {
+    background-color: #0f0f0f;
+}
+
+.upload-modal .inner {
+    color: #fff;
+    border: 2px dashed #161616;
+}
+
+.upload-modal .footer {
+    background-color: #161616;
+}
+
+.upload-modal .footer .button {
+    background-color: #161616;
+}
+
+.channel-textarea-autocomplete-inner {
+    border: 2px solid #0f0f0f;
 }
