@@ -574,7 +574,7 @@ component.member-role {
 
 .popout {
     padding: 0;
-    box-shadow: 0 0px 3px #000000;
+    box-shadow: 0 0px 16px #000000;
 }
 
 .popout section {
@@ -649,7 +649,7 @@ component.member-role {
 .theme-dark .themed-popout {
     background-color: #161616;
     border: none;
-    box-shadow: 0 0px 3px #000000;
+    box-shadow: 0 0px 16px #000000;
 }
 
 .theme-dark .messages-popout-wrap .messages-popout .message-group:hover {
@@ -1320,7 +1320,7 @@ form.modal-content.form.alert.has-icon {
   background: #161616!important;
   border-radius: 2px;
   padding: 0px 0px;
-  box-shadow: 0 0px 3px #000000 !important;
+  box-shadow: 0 0px 16px #000000 !important;
 }
 
 
@@ -1470,6 +1470,10 @@ form.modal-content.form.alert.has-icon {
     background-color: #0a0a0a;
 }
 /* File uploader */
+.upload-drop-modal .bgScale {
+    background: #000000 !important;
+}
+
 .channel-textarea-autocomplete-inner {
     background: #161616 !important ;
 }
