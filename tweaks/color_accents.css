@@ -48,7 +48,7 @@ replace all #009933 with a hex color of your choice.
 }
 
 /*app links*/
-.app a {
+.app a, .connecting a {
     color: #009933;
 }
 
@@ -270,7 +270,7 @@ replace all #009933 with a hex color of your choice.
 
 /* change nickname */
 form .control-group label a {
-    color: #009933;
+    color: #009933 !important;
 } 
 
 .form .control-group label a:hover {
@@ -285,4 +285,28 @@ form .control-group label a {
 
 .theme-dark .message-group .mentioned .message-text {
     background: rgba(0,0,0,.4);
+}
+
+/* add game link */
+.buttonLinkLink-PqcWoA {
+    color: #00b0f4 !important;
+}
+
+/* loading message content animation cubes */
+.wanderingCubesItem-35kyMu {
+  background-color: #009933 !important;
+}
+
+.spinner-wandering-cubes .spinner-item {
+  background-color: #009933 !important;
+}
+
+/*Upload progress bar*/
+.progress .progress-bar {
+  background-color: #009933 !important;
+}
+
+/* Uploaded file name */
+.message-group .comment .attachment .upload>.filename {
+  color: #dd0000 !important;
 }
