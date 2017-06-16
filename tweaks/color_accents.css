@@ -1,4 +1,26 @@
 /*
+Change font color of all accents here
+*/
+
+.chat .new-messages-bar button,
+.chat .new-messages-bar button:last-child,
+.tooltip, 
+.clipboard-input-inner button,
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary,
+#user-profile-modal .btn,
+.form .btn-primary,
+.ui-tab-bar.SIDE .ui-tab-bar-item.selected, .ui-tab-bar.SIDE .ui-tab-bar-item:active,
+.theme-dark .ui-radiogroup .checked .desc, .theme-dark .ui-radiogroup .checked .title,
+.buttonGreenFilled-6QHNrw,
+.buttonGreyGhostDefault-2h5dqi:active,
+.buttonBrandFilled-3Mv0Ra
+{
+    color: #ffffff !important
+}
+
+
+
+/*
 Use your default text editor's find & replace function to 
 replace all #009933 with a hex color of your choice.
 */
@@ -146,11 +168,11 @@ replace all #009933 with a hex color of your choice.
 
 /*switch button color*/
 .ui-switch-checkbox:checked+.ui-switch {
-    background: #009933;
+    background: #009933 !important;
 }
 
 .ui-switch-wrapper:not(.disabled):not(.clear):hover .ui-switch-checkbox:checked+.ui-switch {
-    background: #009933;
+    background: #009933 !important;
 }
 
 /*discord nitro*/
@@ -344,4 +366,27 @@ form .control-group label a {
 
 .detected-platform-accounts-modal .privacy a {
     color: #009933;
+}
+
+/* notifications */
+.radio:hover span:after {
+    background: #009933;
+}
+
+.radio .radio-inner span:after {
+    background: #009933;
+}
+
+.buttonBrandGhost-1-Lmhc {
+    color: #009933;
+    background-color: rgba(0,0,0,.1);
+}
+
+/* region hover color */
+.region-select-modal .region-select-modal-header {
+    color: #009933;
+}
+
+.region-select-modal .region-select-modal-option:hover {
+    border-color: #009933;
 }
