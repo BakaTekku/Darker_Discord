@@ -1444,6 +1444,10 @@ form.modal-content.form.alert.has-icon {
     color: #bbbbbb;
 }
 /* Reaction buttons */
+.theme-dark .reaction.reaction-me .reaction-count {
+    color: #aaaaaa;
+}
+
 .theme-dark .reaction.reaction-me {
     background: #0f0f0f;
 }
