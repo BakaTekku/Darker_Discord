@@ -14,6 +14,15 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
   color: #ffffff;
 }
 
+@keyframes color_up {
+    from {
+        background-color: rgba(0,0,0,0.7);
+    }
+    to {
+        background-color: rgba(0,0,0,0);
+    }
+}
+
 /*Discord Boot*/
 .connecting {
     background: #111111;
@@ -1619,4 +1628,12 @@ form.modal-content.form.alert.has-icon {
 
 .icon.icon-file.spreadsheet {
   background-image: url(https://i.imgur.com/w4n1IQG.png) !important;
+}
+
+/* jump to mention/pin */
+div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
+    animation-name: color_up;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
 }
