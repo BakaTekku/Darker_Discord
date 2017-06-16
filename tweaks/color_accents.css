@@ -225,6 +225,14 @@ replace all #009933 with a hex color of your choice.
 }
 
 /* invite link modal */
+.popout-menu .popout-menu-item.invite {
+    color: #009933;
+}
+
+.popout-menu .popout-menu-item:hover.invite {
+    color: #009933;
+}
+
 #instant-invite-modal .copy {
     background-color: #009933;
 }
@@ -263,6 +271,11 @@ replace all #009933 with a hex color of your choice.
     background-color: #009933;
 }
 
+/* invite icon */
+.popout-menu .popout-menu-item.invite .popout-menu-icon {
+    background-image: url(https://i.imgur.com/nlBITP9.png) !important;
+}
+
 /* create text channel highlight */
 .form .control-group input[type=email]:focus, .form .control-group input[type=number]:focus, .form .control-group input[type=password]:focus, .form .control-group input[type=text]:focus, .form .control-group textarea:focus {
     border-bottom: 2px solid #009933;
@@ -289,7 +302,7 @@ form .control-group label a {
 
 /* add game link */
 .buttonLinkLink-PqcWoA {
-    color: #00b0f4 !important;
+    color: #009933 !important;
 }
 
 /* loading message content animation cubes */
@@ -308,5 +321,27 @@ form .control-group label a {
 
 /* Uploaded file name */
 .message-group .comment .attachment .upload>.filename {
-  color: #dd0000 !important;
+  color: #009933 !important;
+}
+
+/* Voice chat is speaking color*/
+.avatarSpeaking-3teDH6 {
+    box-shadow: 0 0 0 2px #009933,inset 0 0 0 1.5px #2f3136;
+}
+
+/* connect other accounts alert */
+.detected-platform-accounts-modal .btn-group .btn-primary {
+    background-color: #009933;
+}
+
+.detected-platform-accounts-modal .btn-group .btn-primary:hover:not(:disabled) {
+    background-color: #009933;
+}
+
+.input-switch input:checked+.input-switch-slider {
+    background-color: #009933;
+}
+
+.detected-platform-accounts-modal .privacy a {
+    color: #009933;
 }
