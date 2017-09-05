@@ -203,6 +203,13 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 .theme-dark .messages-wrapper .messages .divider span {
     background-color: #161616;
 }
+    
+    
+    
+.theme-dark .inner-3if5cm {
+    background-color: #0f0f0f;
+}    
+    
 /* Text input chat bar */
 .theme-dark .channel-textarea-inner, .theme-dark .channel-textarea.has-results .channel-textarea-inner {
     border-color: transparent;
@@ -239,25 +246,6 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
   margin-left: 20px;
 }
 
-.channel-textarea-inner .channel-textarea-upload
-{
-  border-radius: 7px !important;
-  color: #fff !important;
-  border-right-color: rgba(0, 0, 0, 0) !important;
-  padding: 3px !important;
-  opacity: 0.17;
-  background-size: 18px !important;
-  transform: scale(1.2) !important;
-  background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_file_upload_white_24px.svg);
-  transition: all 100ms ease !important;
-}
-
-.theme-dark .channel-textarea-upload:hover
-{
-  background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_file_upload_white_24px.svg);
-  background-color: hsla(0,0%,100%,.06);
-}
-
 .theme-dark .channel-textarea-emoji {
     opacity: 0.6;
 }
@@ -277,53 +265,19 @@ textarea.has-results .channel-textarea-inner
   border-color: rgba(0,0,0,0);
 }
 
-.theme-dark .channel-textarea-autocomplete-inner
-{
-  background-color: #1c1c1c;
-  border-color: #111111;
+.theme-dark .autocomplete-1TnWNR {
+    background-color: #111111;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 0px 3px #000000;
 }
 
-.theme-dark .channel-textarea-autocomplete-inner header
-{
-  border-bottom-color: #1c1c1c;
-  background-color: #111111;
-  color: #cccccc;
+.theme-dark .selectorSelected-2M0IGv {
+    background-color: #161616;
 }
-
-.theme-dark .channel-textarea-autocomplete-inner ul li.active
-{
-  background: #111111;
-  animation: pulse .38s infinite;
-}
-
-.theme-dark .channel-textarea-autocomplete-inner ul li {
-  color: rgba(255,255,255,.8);
-}
-/* custom emoji selecter icon */
-.channel-textarea-emoji>.sprite-item {
-  display:none
-}
-
-.edit-message .channel-textarea-emoji {
-  background-image:url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTEuOTkgMkM2LjQ3IDIgMiA2LjQ4IDIgMTJzNC40NyAxMCA5Ljk5IDEwQzE3LjUyIDIyIDIyIDE3LjUyIDIyIDEyUzE3LjUyIDIgMTEuOTkgMnpNMTIgMjBjLTQuNDIgMC04LTMuNTgtOC04czMuNTgtOCA4LTggOCAzLjU4IDggOC0zLjU4IDgtOCA4em0zLjUtOWMuODMgMCAxLjUtLjY3IDEuNS0xLjVTMTYuMzMgOCAxNS41IDggMTQgOC42NyAxNCA5LjVzLjY3IDEuNSAxLjUgMS41em0tNyAwYy44MyAwIDEuNS0uNjcgMS41LTEuNVM5LjMzIDggOC41IDggNyA4LjY3IDcgOS41IDcuNjcgMTEgOC41IDExem0zLjUgNi41YzIuMzMgMCA0LjMxLTEuNDYgNS4xMS0zLjVINi44OWMuOCAyLjA0IDIuNzggMy41IDUuMTEgMy41eiIvPjwvc3ZnPg==);
-  background-repeat:no-repeat;
-  background-position:50%;
-  height:18px;
-  background-size:100%;
-  width:18px;
-  display:block;
-  -webkit-transform:scale(1.2);
-  transform:scale(1.2);
-}
-
-.channel-textarea-emoji {
-  background-image:url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTEuOTkgMkM2LjQ3IDIgMiA2LjQ4IDIgMTJzNC40NyAxMCA5Ljk5IDEwQzE3LjUyIDIyIDIyIDE3LjUyIDIyIDEyUzE3LjUyIDIgMTEuOTkgMnpNMTIgMjBjLTQuNDIgMC04LTMuNTgtOC04czMuNTgtOCA4LTggOCAzLjU4IDggOC0zLjU4IDgtOCA4em0zLjUtOWMuODMgMCAxLjUtLjY3IDEuNS0xLjVTMTYuMzMgOCAxNS41IDggMTQgOC42NyAxNCA5LjVzLjY3IDEuNSAxLjUgMS41em0tNyAwYy44MyAwIDEuNS0uNjcgMS41LTEuNVM5LjMzIDggOC41IDggNyA4LjY3IDcgOS41IDcuNjcgMTEgOC41IDExem0zLjUgNi41YzIuMzMgMCA0LjMxLTEuNDYgNS4xMS0zLjVINi44OWMuOCAyLjA0IDIuNzggMy41IDUuMTEgMy41eiIvPjwvc3ZnPg==);
-  background-repeat:no-repeat;
-  background-position:50%;
-  -webkit-transition:all 100ms ease;
-  transition:all 100ms ease;
-  width:80px;
-}
+ 
+.theme-dark .divider-2JwdCF {
+    background-color: #000000;
+}    
 
 .emoji-picker .premium-promo {
     background-color: #0f0f0f;
@@ -548,14 +502,10 @@ textarea.has-results .channel-textarea-inner
 }
 
 /* User Profile popup */
-.user-popout .avatar-wrapper .avatar-popout {
-  border: 4px solid #333;
-  background-color: #333;
-}
-
-.user-popout .header {
-  background: #222222 url(https://i.imgur.com/u7lHZZ3.png);
-}
+.headerNormal-1cioxU {
+    background: #7289da url(https://i.imgur.com/u7lHZZ3.png);
+    background-size: 270px 213px;
+    }
 
 .member-roles .member-role {
     background-color: transparent;
@@ -565,23 +515,28 @@ textarea.has-results .channel-textarea-inner
 component.member-role {
     background: transparent !important;
 }
-
-.user-popout .body {
-    background: #1c1c1c;
-}
+ 
+.body-3rkFrF {
+    background-color: #1c1c1c;
+    padding: 10px;
+    border-bottom: 1px solid #212121;
+    }    
 
 .note textarea:focus {
-    background: #1a1a1a;
-}
+    background: #111;
+} 
+    
 .quick-message {
     border: 1px solid #212121;
     background: #111;
     color: #aaa;
 }
-.user-popout .footer {
-    background: #1c1c1c;
-    border-top: 1px solid #212121;
-}
+    
+.footer-2J5zqP {
+    padding: 10px;
+    background-color: #1c1c1c;
+    }    
+    
 /* User Profile page */
 #user-profile-modal .header:after { /* Header */
   background-image: url( "data:image/png;base64,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" );
@@ -608,10 +563,10 @@ component.member-role {
 }
 
 #user-profile-modal .tab-bar-item { /* Tab */
-  color: #000000!important;
+  color: #DDDDDD!important;
   opacity: 0.7;
 }
-
+    
 #user-profile-modal .tab-bar-item.selected { /* Selected Tab */
   opacity: 1;
   color: #6881D7!important;
@@ -640,6 +595,7 @@ component.member-role {
 
 #user-profile-modal .header:after {
     background-image: url(https://i.imgur.com/u7lHZZ3.png);
+    background-size: 270px 213px;
 }
 
 #user-profile-modal .tab-bar-container {
@@ -652,17 +608,6 @@ component.member-role {
     background: #161616;
 }
 
-#user-profile-modal .tab-bar-container .tab-bar-item:nth-of-type(1) {
-  content:url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTEyIDEyYzIuMjEgMCA0LTEuNzkgNC00cy0xLjc5LTQtNC00LTQgMS43OS00IDQgMS43OSA0IDQgNHptMCAyYy0yLjY3IDAtOCAxLjM0LTggNHYyaDE2di0yYzAtMi42Ni01LjMzLTQtOC00eiIvPiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PC9zdmc+);
-}
-
-#user-profile-modal .tab-bar-container .tab-bar-item:nth-of-type(2) {
-  content:url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMjAgMTNINGMtLjU1IDAtMSAuNDUtMSAxdjZjMCAuNTUuNDUgMSAxIDFoMTZjLjU1IDAgMS0uNDUgMS0xdi02YzAtLjU1LS40NS0xLTEtMXpNNyAxOWMtMS4xIDAtMi0uOS0yLTJzLjktMiAyLTIgMiAuOSAyIDItLjkgMi0yIDJ6TTIwIDNINGMtLjU1IDAtMSAuNDUtMSAxdjZjMCAuNTUuNDUgMSAxIDFoMTZjLjU1IDAgMS0uNDUgMS0xVjRjMC0uNTUtLjQ1LTEtMS0xek03IDljLTEuMSAwLTItLjktMi0ycy45LTIgMi0yIDIgLjkgMiAyLS45IDItMiAyeiIvPjwvc3ZnPg==);
-}
-
-#user-profile-modal .tab-bar-container .tab-bar-item:nth-of-type(3) {
-  content:url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+PC9zdmc+);
-}
 
 #user-profile-modal .guilds .section+.section {
     border-top: 1px solid #202020;
@@ -1422,35 +1367,38 @@ form.modal-content.form.alert.has-icon {
   background-image:url(https://i.imgur.com/S2WyM21.png) !important;
 }
 /* create/join server modal */
-.create-guild-container .action:hover.join .btn {
-    background-color: #000000!important;
-}
-
-.create-guild-container .action.join .btn {
-    background-color: #000000!important;
-}
-
-.create-guild-container .action.join .action-header {
-    color: #cccccc;
-}
-
-.create-guild-container {
-    border-radius: 0px;
-    background-color: transparent;
-}
-
-.create-guild-container .create-or-join .form-inner {
+.create-guild-container.deprecated {
     background-color: #161616;
 }
-
-.create-guild-container .action {
+.create-guild-container.deprecated .create-or-join .form-inner {
+    background-color: #161616;
+}
+.create-guild-container.deprecated .action {
     background: #0f0f0f;
 }
-
+.form.deprecated .control-group input[type=email], .form.deprecated .control-group input[type=number], .form.deprecated .control-group input[type=password], .form.deprecated .control-group input[type=text], .form.deprecated .control-group textarea {
+    color: #ccc;
+}
+.create-guild-container.deprecated .join-server .link-container input {
+    border: 1px solid #000000;
+}
 .or {
     display: none;
 }
-
+.form .control-group input[type=text] {
+    background: #0a0a0a;
+    color: #cccccc;
+}
+.form.deprecated .form-actions {
+    background-color: #161616;
+    border-top: 1px solid #000000;
+}
+.create-guild-container .action:hover.join .btn {
+    background-color: #000000!important;
+}
+.create-guild-container .action.join .btn {
+    background-color: #000000!important;
+}
 .create-guild-container .action.create .action-icon {
     background: url(https://i.imgur.com/zi2NJ1r.png) 50% no-repeat !important;
     background-size: 112px 78px !important;
@@ -1460,40 +1408,12 @@ form.modal-content.form.alert.has-icon {
     background: url(https://i.imgur.com/6HYQCCv.png) 50% no-repeat !important;
     background-size: 178.5px 78px !important;
 }
-
 .region-select .region-select-inner {
     border: 1px solid #000000;
     background: #0a0a0a;
 }
-
 .region-select button {
     border: 1px solid #000000;
-}
-
-.create-guild-container .join-server h5 {
-    color: #cccccc;
-}
-
-.create-guild-container p {
-    color: #aaa;
-}
-
-.create-guild-container .join-server .link-container label {
-    color: #aaa;
-}
-
-.form .control-group input[type=text] {
-    background: #0a0a0a;
-    color: #cccccc;
-}
-
-.create-guild-container .join-server .link-container input {
-    border: none;
-}
-
-.create-guild-container .join-server .btn-primary {
-    width: 100px;
-    background-color: #000000;
 }
 /* Right-click Popout */
 .small-popout-box {
@@ -1570,7 +1490,7 @@ form.modal-content.form.alert.has-icon {
     background-color: #0a0a0a;
     background-image: url(https://i.imgur.com/u7lHZZ3.png);
     background-attachment: fixed;
-    background-position: top left;
+    background-position: top left;
     background-repeat: repeat;
     background-size: initial;
     box-shadow: inset 16px 0px 16px -16px rgba(0,0,0,0.8);
