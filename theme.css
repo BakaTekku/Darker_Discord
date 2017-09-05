@@ -1623,6 +1623,10 @@ form.modal-content.form.alert.has-icon {
     background-color: #0f0f0f;
 }
 
+.theme-brand .textArea-20yzAH {
+    background: #161616;
+}
+
 .upload-modal .inner {
     color: #fff;
     border: 2px dashed #161616;
