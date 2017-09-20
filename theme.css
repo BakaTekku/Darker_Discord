@@ -431,8 +431,9 @@ textarea.has-results .channel-textarea-inner
 }
 /* Friends list */
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected {
-    background-color: #0a0a0a;
-    color: #aaaaaa;
+    background-color: #000000
+    color: #ffffff;
+    border: solid 1px #0a0a0a;
 }
 
 .search-bar {
@@ -502,6 +503,10 @@ textarea.has-results .channel-textarea-inner
 }
 
 /* User Profile popup */
+/* playing game body */
+.bodyDivider-3OPnU2 {
+    background-color: #212121;
+}
 .headerNormal-1cioxU {
     background: #7289da url(https://i.imgur.com/u7lHZZ3.png);
     background-size: 270px 213px;
