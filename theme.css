@@ -22,19 +22,22 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 }
 
 /*Discord Boot*/
-.connecting {
-    background: #111111;
-}
-
-.connecting .connecting-inner:before {
-    content: "NIGHT WAS HERE :)";
+.quote-3NlLs0:before {
+    content: "NIGHT WAS HERE :) - ";
     color: #DD0000;
 }
-
-.connecting video.ready {
-    visibility: hidden;
-    display: none !important;
+    
+.container-2oOGIt {
+    background-color: #111111;
 }
+
+.appMount-14L89u {
+    background-color: #0a0a0a;
+}
+
+
+
+
 /*User settings main*/
 .theme-dark .ui-standard-sidebar-view .sidebar-region {
     background: #161616;
@@ -152,10 +155,14 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 .private-channels {
     background-color: #161616;
 }
-/* Chat messages title bar */
-.theme-dark .chat .title-wrap {
+/* Channel categories*/
+.wrapperCollapsed-18mf-c, .wrapperDefault-1Dl4SS, .wrapperHovered-1KDCyZ, .wrapperHoveredCollapsed-25KVVp, .wrapperMuted-PmsxPn, .wrapperUnread-450E16 {
     background: #0f0f0f;
-    border-bottom: none;
+}
+/* Chat messages title bar */
+.theme-dark .title-qAcLxz {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+    background: #0f0f0f;
     box-shadow: 0 1px 0 rgba(0,0,0,.00);
 }
 /* Load more messages modal */
@@ -266,7 +273,7 @@ textarea.has-results .channel-textarea-inner
 }
 
 .theme-dark .autocomplete-1TnWNR {
-    background-color: #111111;
+    background-color: #0f0f0f;
     border-radius: 3px 3px 0 0;
     box-shadow: 0 0px 3px #000000;
 }
@@ -297,9 +304,9 @@ textarea.has-results .channel-textarea-inner
     background: #0f0f0f;
     border-bottom: solid 1px #090909;
 }
-
 .container-iksrDt {
     background: #0f0f0f;
+    margin-bottom: 0px;
 }
 /* connection info */
 .popout header {
@@ -462,9 +469,10 @@ textarea.has-results .channel-textarea-inner
     background-color: #161616;
 }
 
-.theme-dark #friends .friends-header {
-    background-color: #111111;
-    border-bottom: none;
+/* friends header */
+.theme-dark .headerBar-cxbhPD {
+    -webkit-box-shadow: none;
+    background: #0f0f0f;
     box-shadow: none;
 }
 
@@ -486,6 +494,10 @@ textarea.has-results .channel-textarea-inner
 
 .theme-dark #friends .friends-table .friends-row:hover {
     background: #111;
+}
+.theme-dark #friends .tab-bar .tab-bar-item.selected {
+    background-color: #000000;
+    color: #fff;
 }
 /* add friend */
 .theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-add-header {
@@ -1574,25 +1586,17 @@ form.modal-content.form.alert.has-icon {
     background: #0f0f0f;
 }
 /* Quick switch menu  */
-.quickswitcher.dark .results-scroller-outer:before {
+.quickswitcher-2NdiGJ:before {
     background-image: none;
 }
 
-.quickswitcher.dark {
+.theme-dark .quickswitcher-2NdiGJ {
     background-color: #161616;
     box-shadow: 0 0px 3px #000000;
 }
 
-.quickswitcher.dark .big-input {
+.theme-dark .input-MwQhcX {
     background-color: #0a0a0a;
-}
-
-.quickswitcher.dark .ui-scroller-wrap:before {
-    background-image: none;
-}
-
-.quickswitcher.dark .result.selected {
-    background-color: #111111;
 }
 
 .keybind-shortcut.dark span {
@@ -1630,6 +1634,9 @@ form.modal-content.form.alert.has-icon {
 
 .theme-brand .textArea-20yzAH {
     background: #161616;
+}
+.theme-brand .content-249Pr9 {
+    color: #dedede;
 }
 
 .upload-modal .inner {
