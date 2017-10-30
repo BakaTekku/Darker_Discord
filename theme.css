@@ -35,9 +35,6 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
     background-color: #0a0a0a;
 }
 
-
-
-
 /*User settings main*/
 .theme-dark .ui-standard-sidebar-view .sidebar-region {
     background: #161616;
@@ -155,10 +152,7 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 .private-channels {
     background-color: #161616;
 }
-/* Channel categories*/
-.wrapperCollapsed-18mf-c, .wrapperDefault-1Dl4SS, .wrapperHovered-1KDCyZ, .wrapperHoveredCollapsed-25KVVp, .wrapperMuted-PmsxPn, .wrapperUnread-450E16 {
-    background: #0f0f0f;
-}
+
 /* Chat messages title bar */
 .theme-dark .title-qAcLxz {
     -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
