@@ -509,16 +509,38 @@ textarea.has-results .channel-textarea-inner
 }
 
 /* User Profile popup */
+.userPopout-4pfA0d {
+	padding: 0;
+    box-shadow: 0 0px 16px #000000;
+}
+.headerTop-1QGMLs {
+    padding: 20px 10px;
+    background: #161616 url(https://i.imgur.com/u7lHZZ3.png);
+    background-size: 270px 213px;
+}
 /* playing game body */
-.bodyDivider-3OPnU2 {
+.headerPlaying-2eYqm9 {
+    background: #212121;
+}
+.theme-dark .headerNormal-1cioxU {
+    background: #161616 url(https://i.imgur.com/u7lHZZ3.png);
+    background-size: 270px 213px;
+}
+
+.headerFill-TTyrtz {
     background-color: #212121;
 }
-.headerNormal-1cioxU {
-    background: #7289da url(https://i.imgur.com/u7lHZZ3.png);
-    background-size: 270px 213px;
-    }
 
-.member-roles .member-role {
+.theme-dark .body-3_tdh6 {
+    background-color: #1c1c1c;
+}
+
+.buttonBrandInverted-VFL7Yc {
+    background-color: #3ca;
+    color: #fff;
+}
+
+.theme-dark .rolesList-2YHFg5 .member-role {
     background-color: transparent;
     border: 1px solid #252525;
 }
@@ -527,125 +549,32 @@ component.member-role {
     background: transparent !important;
 }
  
-.body-3rkFrF {
+.theme-dark .body-3rkFrF, .theme-dark .footer-2J5zqP {
     background-color: #1c1c1c;
     padding: 10px;
     border-bottom: 1px solid #212121;
-    }    
+}    
 
-.note textarea:focus {
+.header-2Lg0Oe {
+    background-image: url(https://i.imgur.com/u7lHZZ3.png);
+    background-size: 270px 213px;
+}
+
+.theme-dark .userPopout-4pfA0d .note textarea:focus {
     background: #111;
 } 
     
-.quick-message {
+.theme-dark .quickMessage-28pD5Y {
     border: 1px solid #212121;
     background: #111;
     color: #aaa;
 }
     
-.footer-2J5zqP {
+.theme-dark .footer-2J5zqP {
     padding: 10px;
     background-color: #1c1c1c;
-    }    
+}    
     
-/* User Profile page */
-#user-profile-modal .header:after { /* Header */
-  background-image: url( "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAhwAAAGqCAMAAAB3W227AAAAOVBMVEVyidpzitp6kNx9ktx7kdx8kdx3jdt0itp6j9xzidp2jNt5j9x0i9p1i9p1jNt2jdt4jtt5j9t7kNyOo2OkAAAIoElEQVR4Ae3d52KkOAJF4QtXAkSBLHj/h11VcCXjmVmH7qZ9vomlP52OFScI/6JpfadtBFw0wQ9CI+CsdRW7Xuq76KrVCdC5GhqdNIOrThWQou1BV4PtmARIo+3Y6KqJtkcB0sF297zMHARIwXavO73tIAlwtTkCEAd+07KCZlKa2ZBiQxPi3DpzlMW7TxOZSzA8e/FZy/U5tn923SYe3vAoF6m7tFEyT/a4yXaRunMbduYf9nmF2VWRxnMbe61DXfRF7PQH66dp0l708VLHpY04aZ/SeAh2OIxJf7Dmcj+XtAujj2Zp9tEofH8cKSzMHPeQpWQ7Sq3dpt3sOdKav3nPgeJyiWNxVbSLOopSsPO3nlYw2m57V52rQXswn9qostRlfRNEV7Gbpv7Fdkjah/QL3lbQh+uGf46x523lDtLBLjrpc4gxDtqDYv+C/TO6VhdpR1+M5aCRNn6Bj8cB4gDSlCoBbw1x1hag8IqFd/DGifd1796RAtmx0SagnwQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8ufIS7LBk4Qv0JTgOL9uDe5ODL0LWZ6H4LPTbg7tSfKcIX/XTGfvNwZ228fk6kH2zbg/u7QezTNK0+CjrExBsx5z6xdW4PbivH8yskznaDvo49K56VQfbh+3BvciuZl3MTB0fUqrbIt3eitgaDNqLxfay/RH/WXydGdTetm3eGizVrlaVSVfTR8rGdbXoXfXbg/vjavvzf4fR1dKnHG2H7cGfCqtv8vbgT4U++lXZHvy50Aefle3BHw0vQ3Qo/fbgTwUAAAAAAAAAAAAAAAAAgJ8FfS8QB4gDxAE0Py8OEAeIA8QB4gBxgDjQl9VeS08ceFZ8UYjjEQZfDcRxD8V3iOMOelchp5QDcTxCsR2SqhSI4wFW21kneb9x+PBE+AKukk7SjuN4pn8F4gDLyjOBDelRfuJK4Ci7xZXAJRhxcH1OHDy8EQdP9sQB4gBxgDhAHCAOEAdAHCAOEAcAAECx3ekeQBwgDhAHiAPEAeIAcYA4QBwgDiClJAAAgC82rFeNbub1atAPhdVXjW6yr1Z9AIgDxPEzoemvdK+/avRBAACkpmmSdgo8vIE4QBzeJHw54gBxgDhAHBsj3w/EAeL4fhiHYcjE8TuBOEAcIA4QB4gDxAHiAHGAOEAcAE/2j0AcII5mSjoCcaSuLIehXUOI0WeNgBM/G3QGdH7S6AKITBx4T+cqLKUbg6ukKyDajpIaJg48e3HVSS0TxxuIrtS7OugeMLoqWxMHEHxx0CMg+yJpG5g6FgHPZp/oLSAwceA9kyttAVa7aAvQ2/pToStdp99oLfpTIf7ma4ZGfyy40meBOEAcQEqSku0opT7rClgc12Fx1Ubbk14Bgx+MegWsflC0CcSxDqNugDR1PgqNgGetTzoBT2ZfNHoErK/n2IP+cnkJdliy8B9lV/3oKutvloMvQhb+k3CeM1rbQX+x8n8f2TG6aqTeVfkBbfz3OtAsdlFV7PKXL55eJmla/J+XUPSHRkeH/i9fPOOskznellAgu5p1Md+mDmCxvWx9BILtSVfTdV0BXG18BogDLCtgQwqOsuASDFyfg4c38GS/Z+Af9gH/mCAAAAAAAAAAAAAAAAAAAOD/aQLiAHGAOABXzZmAB74RQBz4ZBxAOPsVcYBDC4gDxAH4lQDiwCfjAIgDALrSdQK2RNtJALc2+K44QBxASpKS7SilPusKWBzXYXHVRtuTXgGDH4x6Bax+UARsxrEOo4CbNHU+Co2eAa1POj0BZl80Ah6tr+fYQcCD7KofXWXdA4Ltg9TaDroDjK4aqXdVBNw0y6WJ8qYNoD80Ojr0+ju52vwMhMcXxem6uwIW28vWRyC7mh/u/LKuwLoSZ53M8W5VAbKPlkmaFj9MHEDxg6IroNAG3pWDL0IW8CgvwQ5L1gcBAAAgCdiWi4BtqxsBW0a7CNgSbDfal1n4FUZXi3Zl9KERvl/wUa89GWxnXaRcyksvfL0Xnxy0J/c5F58ckvDVgs967UdypbPWFyEJ3zBxrHubOq5xpMFXg/D1E0eZXU3aj2g7X+e9WLr1m34ETBxJ7c6+8BZXL9MYXLXpsroU4StF20Xa29TR+6ZNqvJX543OVZJ2N3V0ftXqZLK9Cl88cSzTnMfF1by/E7iXpJPxi+tG5wetdqQpwzqU/mFjLXyZFP1o1m49fvf7nHt9Bjo/WbVXkytddNHVOgufmzhiWNvhsJTSvYx51l6Nt2u8tPqi04ehSdq/5zhS+7BMArPteNtHxaF9XSYBV4dG8/r6Qju76gWovNlXD7ZfBCgFvzrccikCpGb12aKz5TpzAC+rHZdJF5HjCt6Tgy1gW1cEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMBv0gjY9uJZF2nodQUUO/Y6ax0nAReTq9joaHA1CXj4v80nSYurQVdAcdVe/rrqDnBwdXhxFZLuAYMvYiPgQVp9NukJ0AQfzQLe6KPtketbbJnsTn+gzrPwu+Xypx6zJwHbbTgKeKeNSc+A5dZGEvCmjV5SatukK+Bw14bd6hUwuArN9f62CHhuo1ldsa7gIrWu1uZ6sz8IuG8jfaaNXAl/nXRbSPro6qD/W2M7CLTxM+LAw0IyRVeLiAPbbRQRB076cF1IZn+sjXTU2w6pEv4W6bbJyB9sY/SDg/C3eLG93Nro9CPjGNteeKtzuf0Sv+gHxtGXaDfChvn2KzzqA3I88lGsFu1LHnwkvOflsY0fc1ppSvSZ8I4UXWX9sDjy4FdBeE8f7Vk/Ko6mRN+swrv6MOsnxZEHX8TyYrsVvt4u40itL9pRyt99xkLf9432IhX7+to4PrwnAdPqozhK3dPFMFB8MjTl+WYY6FufhLdXw8CLX2U9AprBZ7OAZ2P0Ua83gHRw1WgDkIOdhE/4Hz/NVYREWKoiAAAAAElFTkSuQmCC" );
-  background-color: #7289DA;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 150px
-}
-
-#user-profile-modal .header .username { /* Username */
-  color: #ffffff;
-}
-
-#user-profile-modal .header .discriminator { /* Discriminator */
-  opacity: 0.5!important;
-  color: #ffffff!important;
-}
-
-#user-profile-modal .header .activity { /* Playing X */
-  opacity: 0.5!important;
-  color: #ffffff!important;
-}
-
-#user-profile-modal .tab-bar-item { /* Tab */
-  color: #DDDDDD!important;
-  opacity: 0.7;
-}
-    
-#user-profile-modal .tab-bar-item.selected { /* Selected Tab */
-  opacity: 1;
-  color: #6881D7!important;
-  border-bottom-color: #6881D7!important;
-}
-
-#user-profile-modal .additional-actions-icon { /* Actions Icon */
-  background: url( "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAZdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuMTJDBGvsAAAAUElEQVRIS+3SMQ4AIAgDQJ7m/z+FVSqLiRMOJL2EhaFDU5M+3H3gjsF3HQYnvuswN/FdB5l/K+pv1RLtbFrRDZla0duqJdrZtKIbMrWilswmKKm2TeARxnMAAAAASUVORK5CYII=" ) center no-repeat!important;
-}
-
-#user-profile-modal .avatar-wrapper { /* Avatar Wrapper */
-  border: solid 5px white;
-  border-radius: 100%;
-}
-
-.popout {
-    padding: 0;
-    box-shadow: 0 0px 16px #000000;
-}
-
-.popout section {
-    padding: 20px;
-    background-color: #161616;
-    border-radius: 0 0 3px 3px;
-}
-
-#user-profile-modal .header:after {
-    background-image: url(https://i.imgur.com/u7lHZZ3.png);
-    background-size: 270px 213px;
-}
-
-#user-profile-modal .tab-bar-container {
-    background-color: #111;
-    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
-    border-bottom: none;;
-}
-
-#user-profile-modal .scroller {
-    background: #161616;
-}
-
-
-#user-profile-modal .guilds .section+.section {
-    border-top: 1px solid #202020;
-}
-
-#user-profile-modal .guilds .section .connected-accounts .connected-account{
-  border:0;
-  background:#212121;
-  box-shadow:0 2px 5px rgba(0,0,0,.1);
-}
-
-#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
-  color:#aaa; 
-}
-
-#user-profile-modal .empty {
-  background: #161616;
-}
-
-#user-profile-modal .guilds .guild:hover {
-    background: #111111;
-    color: #aaa;
-}
-
-#user-profile-modal .guilds .guild {
-    color: #aaa;
-}
 /* Pinned messages */
 .messages-popout .channel-separator{
     background-color: #0f0f0f;
