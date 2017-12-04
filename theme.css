@@ -508,6 +508,34 @@ textarea.has-results .channel-textarea-inner
     border-bottom: 1px solid #1c1c1c;
 }
 
+/*context menu roles popup*/
+.scrollerThemed-19vinI.themeLight-1WK0Av .scroller-fzNley::-webkit-scrollbar-thumb,
+.theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av .scroller-fzNley::-webkit-scrollbar-thumb,
+.theme-light .scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-thumb {
+    background-color: #212121;
+}
+
+.scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track,
+.theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track,
+.theme-light .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track {
+    background-color: #161616;
+}
+
+.popout {
+    padding: 0;
+    box-shadow: 0 0px 16px #000000;
+}
+
+.popout section {
+    padding: 20px;
+    background-color: #161616;
+    border-radius: 0 0 3px 3px;
+}
+
+#autocomplete-popout .row.selected a, #autocomplete-popout .row:hover a {
+    color: #DEDEDE;
+}
+
 /* User Profile popup */
 .userPopout-4pfA0d {
 	padding: 0;
@@ -517,6 +545,9 @@ textarea.has-results .channel-textarea-inner
     padding: 20px 10px;
     background: #161616 url(https://i.imgur.com/u7lHZZ3.png);
     background-size: 270px 213px;
+}
+.tabBarContainer-3RVZc- {
+    background: #212121;
 }
 /* playing game body */
 .headerPlaying-2eYqm9 {
