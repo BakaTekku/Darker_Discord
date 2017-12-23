@@ -108,7 +108,7 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 }
 /* Notice */
 .channel-notices .channel-notice.quickswitcher-notice {
-    background: #0f0f0f;
+    background: #0f0f0f url(https://discordapp.com/assets/8fdb69b7684b8e1ecb3fdde909daca41.svg) no-repeat center 35px;
 }
 .channel-notices .channel-notice .message .btn {
     background-color: #1c1c1c;
