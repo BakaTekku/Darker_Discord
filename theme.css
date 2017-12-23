@@ -106,6 +106,13 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 .guilds-wrapper {
   background: #0a0a0a;
 }
+/* Notice */
+.channel-notices .channel-notice.quickswitcher-notice {
+    background: #0f0f0f;
+}
+.channel-notices .channel-notice .message .btn {
+    background-color: #1c1c1c;
+}
 /* Text channels title bar */
 .channels-wrap {
     background-color: #131313;
@@ -169,6 +176,11 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
     background: #161616;
     box-shadow: inset 16px 0px 16px -16px rgba(0,0,0,0.8);
 }
+/* NSFW */
+.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyCenter-29N31w.alignStretch-1hwxMa.noWrap-v6g9vO.theme-dark {
+    box-shadow: inset 16px 0px 16px -16px rgba(0,0,0,0.8);
+    margin-top: 0px;
+}
 /* Messages Divider */
 .theme-dark .message-group:not(.has-divider) {
     border-bottom-color: rgba(0,0,0,.3);
@@ -204,9 +216,7 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 .theme-dark .messages-wrapper .messages .divider span {
     background-color: #161616;
 }
-    
-    
-    
+        
 .theme-dark .inner-3if5cm {
     background-color: #0f0f0f;
 }    
@@ -292,6 +302,11 @@ textarea.has-results .channel-textarea-inner
 .theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
     background: -webkit-linear-gradient(left,#111111 85%,#131313);
     background: linear-gradient(to right,#111111 85%,#131313);
+}
+/* Voice user limit tag*/
+.wrapper-2ldvyE {
+    background-color: #111111;
+    color: #666;
 }
 /*New Voice bar update */
 .container-3lnMWU {
@@ -520,7 +535,16 @@ textarea.has-results .channel-textarea-inner
 .theme-light .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track {
     background-color: #161616;
 }
-
+/*search popout*/
+.theme-dark .search-results-wrap .search-result.expanded {
+    border: 2px solid #0f0f0f;
+}
+.theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit {
+    -webkit-box-sizing: border-box;
+    background-color: #0f0f0f;
+    border-bottom: solid 1px #000;
+    border-top: solid 1px #000;
+}
 .popout {
     padding: 0;
     box-shadow: 0 0px 16px #000000;
@@ -647,11 +671,11 @@ component.member-role {
     border-color: rgba(0,0,0,.3);
 }
 
-.search-popout {
+.theme-dark .search-popout {
     background-color: #161616;
     border: none;
     border-radius: 5px;
-    box-shadow: 0 0px 3px #000000;
+	box-shadow: 0 0px 16px #000000;
 }
 
 .theme-dark .search-answer, .theme-dark .search-filter {
@@ -735,9 +759,8 @@ component.member-role {
 }
 
 .search-popout .search-query {
-    border-bottom: 1px so;
+    border-bottom: 1px;
 }
-
 .option.search-query {
     background-color: #111111;
 }
@@ -1322,12 +1345,22 @@ component.member-role {
     color: #e0e0e0;
 }
 
+.chat .new-messages-bar {
+    background-color: #1c1c1c;
+    border: solid 1px #000;
+}
+
+.chat .new-messages-bar:hover {
+    background-color: #111;
+}
+
 .theme-dark .chat .jump-to-present-bar {
-    background-color: #000000;
+    background-color: #1c1c1c;
+    border: solid 1px #000;
 }
 
 .theme-dark .chat .jump-to-present-bar:hover {
-    background-color: #030303;
+    background-color: #111;
 }
 
 .theme-dark .message-group .comment .markup .mention {
@@ -1718,4 +1751,39 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
     animation-duration: 3s;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
+}
+/* LFG Main Screen*/
+.theme-dark .lfg-3xoFkI {
+    background-color: #161616;
+    box-shadow: inset 16px 0px 16px -16px rgba(0,0,0,0.8);
+}
+.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.directionRow-yNbSvJ.justifyBetween-1d1Hto.alignCenter-3VxkQP.noWrap-v6g9vO.listHeader-1GwSBl {
+    background: #0f0f0f;
+}
+theme-dark .tabBar-PTjkZh {
+    border-bottom-color: transparent;
+}
+.theme-dark .wrapper-33pNYY {
+    border-bottom-color: #000;
+}
+.buttonGreyFilled-3qPP_J {
+    background-color: #1c1c1c;
+    color: #fff;
+    border: solid 1px #000;
+}
+/* hover */
+.theme-dark .card-11ynQk::before {
+    background-color: #111111;
+    border-color: #111;
+}
+.buttonBrandFilled-3Mv0Ra {
+    background-color: #1c1c1c;
+}
+.buttonBrandFilledDefault-2Rs6u5:hover {
+    background-color: #1c1c1c;
+}
+
+/*lfg create group*/
+.theme-dark .input-2YozMi:focus {
+    border-color: #000;
 }
