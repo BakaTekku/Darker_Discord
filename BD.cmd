@@ -55,7 +55,8 @@ goto Menu
 
 :Install_BD
 cls
-python -m pip install -U https://github.com/leovoel/BeautifulDiscord/archive/master.zip
+REM python -m pip install -U https://github.com/leovoel/BeautifulDiscord/archive/master.zip
+python -m pip install -U https://github.com/leovoel/BeautifulDiscord/archive/canary.zip
 pause
 goto Menu
 
@@ -109,6 +110,6 @@ echo During setup make sure to tick the box for "Add Python to path" option.
 echo.
 echo Press ENTER to Download Python...
 pause >nul
-start "" "https://www.python.org/ftp/python/3.6.1/python-3.6.1.exe"
+start "" "https://www.python.org/ftp/python/3.6.4/python-3.6.4.exe"
 endlocal
 exit
