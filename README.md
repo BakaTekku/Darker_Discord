@@ -3,11 +3,11 @@
 A darker Discord theme made by Night#9471 for use with BeautifulDiscord.
 
 ## How to Install
-<br>**Auto:**
-**1. Right-click Save link as and download ** [BD.cmd](https://raw.githubusercontent.com/BakaTekku/Discord_Theme/master/BD.cmd)<br>Make sure to save as type all files.
+**Auto:**
+<br>**1. Right-click Save link as and download ** [BD.cmd](https://raw.githubusercontent.com/BakaTekku/Discord_Theme/master/BD.cmd)<br>Make sure to save as type all files.
 
-<br>**Manual:**
-**1. Right-click Save link as... ** [autotheme.css](https://raw.githubusercontent.com/BakaTekku/Discord_Theme/master/autotheme.css)
+**Manual:**
+<br>**1. Right-click Save link as... ** [autotheme.css](https://raw.githubusercontent.com/BakaTekku/Discord_Theme/master/autotheme.css)
 <br>Make sure to save as type all files.
 
 **2. Install** [Python](https://www.python.org/ftp/python/3.6.4/python-3.6.4.exe)
