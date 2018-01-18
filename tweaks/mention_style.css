@@ -1,0 +1,12 @@
+/* add this code snippet to your main theme file. */
+
+/* mentions */
+.theme-dark .message-group .mentioned .message-text {
+    background: linear-gradient(#111111, #1c1c1c);
+    border: groove 2px #222;
+    margin-top: 7px;
+}
+.message-group .mentioned .message-text:after {
+    background: transparent;
+    border-left: 4px groove #444;
+}

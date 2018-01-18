@@ -55,8 +55,7 @@ goto Menu
 
 :Install_BD
 cls
-REM python -m pip install -U https://github.com/leovoel/BeautifulDiscord/archive/master.zip
-python -m pip install -U https://github.com/leovoel/BeautifulDiscord/archive/canary.zip
+python -m pip install -U https://github.com/leovoel/BeautifulDiscord/archive/master.zip
 pause
 goto Menu
 
