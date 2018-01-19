@@ -3,9 +3,9 @@
 A darker Discord theme made by Night#9471 for use with BeautifulDiscord.
 
 ## How to Install
-<br><a href="http://www.youtube.com/watch?feature=player_embedded&v=I87aafbLQxQ" target="_blank"><img src="http://img.youtube.com/vi/I87aafbLQxQ/0.jpg" 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=I87aafbLQxQ" target="_blank"><img src="http://img.youtube.com/vi/I87aafbLQxQ/0.jpg" 
 alt="Video Guide" width="240" height="180" border="10" /></a>
-**Auto:**
+<br>**Auto:**
 <br>**1. Right-click to Save link as and download** [BD.cmd](https://raw.githubusercontent.com/BakaTekku/Discord_Theme/master/BD.cmd)
 & [autotheme.css](https://raw.githubusercontent.com/BakaTekku/Discord_Theme/master/autotheme.css)
 <br>Make sure to save as type all files.
