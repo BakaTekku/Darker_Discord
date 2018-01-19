@@ -260,10 +260,12 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 {
   margin: 20px 0 30px;
 }
-
 /* typing */
 .theme-dark .typing-3eiiL_ {
     background-color: transparent;
+}
+.typing-3eiiL_ {
+    left: 20px;
 }
 
 .theme-dark .channel-textarea-emoji {
@@ -568,7 +570,7 @@ textarea.has-results .channel-textarea-inner
 
 /* User Profile popup */
 .userPopout-4pfA0d {
-	padding: 0;
+    padding: 0;
     box-shadow: 0 0px 16px #000000;
 }
 .headerTop-1QGMLs {
@@ -681,7 +683,7 @@ component.member-role {
     background-color: #161616;
     border: none;
     border-radius: 5px;
-	box-shadow: 0 0px 16px #000000;
+    box-shadow: 0 0px 16px #000000;
 }
 
 .theme-dark .search-answer, .theme-dark .search-filter {
@@ -976,7 +978,7 @@ component.member-role {
     border-radius: 0px;
 }
 .form-deprecated .form-header, .form.deprecated .form-header {
-	background: #0f0f0f;
+    background: #0f0f0f;
 }
 .wrapper-VSYYTS .instantInviteModal-5L33Qh .form-header header {
     color: #aaa;
@@ -985,20 +987,20 @@ component.member-role {
     color: #fff;
 }
 .form-deprecated .form-inner, .form.deprecated .form-inner {
-	background-color: #0f0f0f !important;
+    background-color: #0f0f0f !important;
 }
 .clipboardInputInner-oj8y-S {
-	background: #0a0a0a;
+    background: #0a0a0a;
     border: none;
 }
 .wrapper-VSYYTS .instantInviteModal-5L33Qh .expireText-NeAc7v {
     color: #aaa;
 }
 .wrapper-VSYYTS .instantInviteModal-5L33Qh .form-actions {
-	background-color: #0f0f0f;
+    background-color: #0f0f0f;
 }
 .wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox .checkbox-inner span {
-	border: 2px solid hsla(0,0%,100%,.2);
+    border: 2px solid hsla(0,0%,100%,.2);
 }
 /* link settings */
 .form-deprecated .control-group label, .form.deprecated .control-group label {
@@ -1038,8 +1040,8 @@ component.member-role {
 }
 
 .Select-menu-outer {
-	background: #0a0a0a;
-	border: solid 1px #000;
+    background: #0a0a0a;
+    border: solid 1px #000;
 }
 
 .form-deprecated .is-focused:not(.is-open)>.Select-control, .form.deprecated .is-focused:not(.is-open)>.Select-control {
@@ -1390,9 +1392,9 @@ form.modal-content.form.alert.has-icon {
 
 /* context menu*/
 .theme-dark .contextMenu-uoJTbz {
-	background: #161616!important;
-  	border-radius: 2px;
-  	box-shadow: 0 0px 16px #000000 !important;	
+    background: #161616!important;
+    border-radius: 2px;
+    box-shadow: 0 0px 16px #000000 !important;  
 }
 .theme-dark .itemSubMenu-3ZgIw- {
     background: #0f0f0f url(https://discordapp.com/assets/1988164a7c55346d32117b151f4e319d.svg) no-repeat 155px 50%;
@@ -1404,7 +1406,7 @@ form.modal-content.form.alert.has-icon {
     background: #0f0f0f;
 }
 .theme-dark .itemGroup-oViAgA {
-	border-color: #0c0c0c;
+    border-color: #0c0c0c;
 }
 /* message options popout */
 .small-popout-box {
