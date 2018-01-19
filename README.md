@@ -4,7 +4,10 @@ A darker Discord theme made by Night#9471 for use with BeautifulDiscord.
 
 ## How to Install
 **Auto:**
-<br>**1. Right-click Save link as and download** [BD.cmd](https://raw.githubusercontent.com/BakaTekku/Discord_Theme/master/BD.cmd)<br>Make sure to save as type all files.
+<br>**1. Right-click Save link as and download** [BD.cmd](https://raw.githubusercontent.com/BakaTekku/Discord_Theme/master/BD.cmd)
+& [autotheme.css](https://raw.githubusercontent.com/BakaTekku/Discord_Theme/master/autotheme.css)
+<br>Make sure to save as type all files.
+<br> Run BD.cmd and follow the setup to install Python & BeautifulDiscord
 
 **Manual:**
 <br>**1. Right-click Save link as** [autotheme.css](https://raw.githubusercontent.com/BakaTekku/Discord_Theme/master/autotheme.css)
