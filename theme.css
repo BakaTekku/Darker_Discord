@@ -714,25 +714,25 @@ component.member-role {
     border-top: transparent;
 }
 
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker, .theme-light .ui-calendar-picker .react-datepicker {
+.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker, .theme-light .calendarPicker-16Q6sl .react-datepicker {
     background-color: #161616;
 }
 
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__week:last-of-type .react-datepicker__day, .theme-light .ui-calendar-picker .react-datepicker__week:last-of-type .react-datepicker__day {
+.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__week:last-of-type .react-datepicker__day, .theme-light .calendarPicker-16Q6sl .react-datepicker__week:last-of-type .react-datepicker__day {
     border-bottom-color: #1c1c1c;
 }
 
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__header, .theme-light .ui-calendar-picker .react-datepicker__header {
+.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__header, .theme-light .calendarPicker-16Q6sl .react-datepicker__header {
     background-color: #161616;
 }
 
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day, .theme-light .ui-calendar-picker .react-datepicker__day {
+.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__day, .theme-light .calendarPicker-16Q6sl .react-datepicker__day {
     border-top-color: #1c1c1c;
     border-left-color: #1c1c1c;
     color: #aaa;
 }
 
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day--disabled, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day--outside-month, .theme-light .ui-calendar-picker .react-datepicker__day--disabled, .theme-light .ui-calendar-picker .react-datepicker__day--outside-month {
+.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__day--disabled, .theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__day--outside-month, .theme-light .calendarPicker-16Q6sl .react-datepicker__day--disabled, .theme-light .calendarPicker-16Q6sl .react-datepicker__day--outside-month {
     background-color: #000000;
 }
 
@@ -740,25 +740,29 @@ component.member-role {
     border-top: 1px solid #1c1c1c;
 }
 
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__current-month, .theme-light .ui-calendar-picker .react-datepicker__current-month {
+.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__current-month, .theme-light .calendarPicker-16Q6sl .react-datepicker__current-month {
     border-bottom-color: #1c1c1c;
 }
 
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--next, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--previous, .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--next, .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--previous {
+.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__navigation.react-datepicker__navigation--next, .theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__navigation.react-datepicker__navigation--previous, .theme-light .calendarPicker-16Q6sl .react-datepicker__navigation.react-datepicker__navigation--next, .theme-light .calendarPicker-16Q6sl .react-datepicker__navigation.react-datepicker__navigation--previous {
     border-color: transparent;
 }
 
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__week .react-datepicker__day:last-of-type, .theme-light .ui-calendar-picker .react-datepicker__week .react-datepicker__day:last-of-type {
+.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__week .react-datepicker__day:last-of-type, .theme-light .calendarPicker-16Q6sl .react-datepicker__week .react-datepicker__day:last-of-type {
     border-right-color: transparent;
 }
 
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__current-month, .theme-light .ui-calendar-picker .react-datepicker__current-month {
+.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__current-month, .theme-light .calendarPicker-16Q6sl .react-datepicker__current-month {
     color: #aaa;
 }
 
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled:hover, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled:hover {
+.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--disabled:hover, .theme-light .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--disabled, .theme-light .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--disabled:hover {
     background-color: #111;
     color: #aaa;
+}
+
+.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__day-name, .theme-light .calendarPicker-16Q6sl .react-datepicker__day-name {
+    color: #fff;
 }
 
 .theme-dark .search-results-wrap .search-header {
