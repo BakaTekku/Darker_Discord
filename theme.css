@@ -200,6 +200,9 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
     background: #0f0f0f;
     color: #aaa;
 }
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn:hover, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn:hover {
+    background: #1c1c1c;
+}
 /* @mention hover */
 .theme-dark .message-group .comment .markup .mention:hover {
     background-color: transparent;
@@ -558,10 +561,24 @@ textarea.has-results .channel-textarea-inner
     box-shadow: 0 0px 16px #000000;
 }
 
-.popout section {
-    padding: 20px;
+/* Roles popout*/
+#autocomplete-popout .autocomplete-scroller::-webkit-scrollbar-thumb,
+#autocomplete-popout .autocomplete-scroller::-webkit-scrollbar-track
+ {
+    background-color: #0f0f0f;
+}
+#autocomplete-popout {
+    box-shadow: 0 0px 16px #000000;
+}
+.theme-dark #autocomplete-popout section {
     background-color: #161616;
     border-radius: 0 0 3px 3px;
+}
+.theme-dark #autocomplete-popout .autocomplete-arrow, .theme-dark #autocomplete-popout .autocomplete-header-background {
+    background-color: #0f0f0f;
+}
+.theme-dark #autocomplete-popout .row.selected {
+    background: #0f0f0f;
 }
 
 #autocomplete-popout .row.selected a, #autocomplete-popout .row:hover a {
@@ -855,6 +872,14 @@ component.member-role {
 .emojiPicker-3g68GS .category-3rCtoh {
     border-top: 1px solid #1c1c1c;
     color: #DEDEDE;
+}
+/* diversity selector */
+.emojiPicker-3g68GS .dimmer-jySV_v.visible-1CGy1m {
+    background-color: hsla(0,0%,6%,.6);
+}
+.diversitySelector-O3ea2c .popout-2lja3I {
+    background: #0f0f0f;
+    border: 1px solid #0a0a0a;
 }
 
 /* local bot message */
@@ -1310,6 +1335,14 @@ component.member-role {
     color: #aaaaaa;
 }
 /* Alerts */
+.unread-2TDDFN {
+    background-color: #1c1c1c;
+    border: solid 1px #000;
+}
+.unread-2TDDFN:hover {
+    background-color: #111;
+}
+
 .mention {
     color: #fffff;
 }
@@ -1702,6 +1735,10 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
     animation-timing-function: ease-in-out;
 }
 /* LFG Main Screen*/
+.theme-dark .gameSelector-24sFfz {
+    background-color: #111;
+    border-color: #000;
+}
 .theme-dark .wrapperDefault-NeXRmD { /*user count*/
     background-color: #0f0f0f;
 }
@@ -1757,4 +1794,37 @@ theme-dark .tabBar-PTjkZh {
 .theme-dark .gameSelected-31teRt {
     background: #0a0a0a;
     border-color: #000000;
+}
+
+/* activity */
+.theme-dark .activityFeed-HeiGwL {
+    background-color: #161616;
+    box-shadow: inset 16px 0px 16px -16px rgba(0,0,0,0.8);
+}
+.theme-dark .card-2WxYqG {
+    background-color: #161616;
+    border-color: #101010;
+    color: #f6f6f7;
+}
+.theme-dark .header-1qeJfQ {
+    background-color: #111;
+    border-bottom-color: transparent;
+}
+.theme-dark .body-8pBSC7 {
+    background-color: #141414;
+}
+.theme-dark .partyBottomBorder-EvU-Qp {
+    background-color: #1c1c1c;
+}
+.theme-dark .newsIconCircle-2mzNOD {
+    background-color: #0f0f0f;
+}
+.theme-dark .content-1RjmSK {
+    background-color: #0f0f0f;
+}
+.theme-dark .content-1RjmSK:hover {
+    background-color: #111;
+}
+.theme-dark .sectionLine-3fsQAf {
+    background-color: #1c1c1c;
 }
