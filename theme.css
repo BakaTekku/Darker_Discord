@@ -35,6 +35,19 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
     background-color: #0a0a0a;
 }
 
+.theme-dark .layer-kosS71, .theme-dark .layers-20RVFW {
+    background: #161616;
+}
+
+.container-2OU7Cz {
+    background-color: #161616;
+}
+
+.theme-dark .number-30pAHE {
+    background: #161616;
+}
+
+
 /*User settings main*/
 .theme-dark .ui-standard-sidebar-view .sidebar-region {
     background: #161616;
@@ -233,7 +246,15 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 .theme-dark .inner-3if5cm {
     background-color: #0f0f0f;
 }    
-    
+/* message attachments pop out */
+.theme-dark .attachPopout-gjwHsr {
+    background-color: #161616;
+    box-shadow: 0 0px 16px #000000;
+}
+.theme-dark .attachPopoutRow-elxASe:hover {
+    background-color: #0f0f0f;
+    color: #ffffff;
+}    
 /* Text input chat bar */
 .theme-dark .channel-textarea-inner, .theme-dark .channel-textarea.has-results .channel-textarea-inner {
     border-color: transparent;
@@ -1310,7 +1331,6 @@ component.member-role {
     box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
 }
 
-
 /*Changelog modal window popup*/
 .markdown-modal {
     background-color: #161616;
@@ -1532,6 +1552,16 @@ form.modal-content.form.alert.has-icon {
 .message-group .comment .markup {
     color: #aaa;
 }
+/* spotify embed */
+.theme-dark .invite-CTGItT {
+    background: #0f0f0f;
+    border-color: #000000;
+}
+/* uploaded embed*/
+.theme-dark .attachment-1Vom9D {
+    background-color: #0f0f0f;
+    border-color: #000000;
+}
 /* embed */
 .theme-dark .embedInner-t4ag7g {
     background-color: rgba(0,0,0,-0.7);
@@ -1629,104 +1659,6 @@ form.modal-content.form.alert.has-icon {
   color: #ffffff;
 }
 
-/* File type icons */
-.upload-modal .inner .file .icon.video {
-    background-image: url(https://i.imgur.com/RvX3gVU.png) !important;
-}
-
-.icon.icon-file {
-    background: url(https://i.imgur.com/fW0LbaK.png) no-repeat !important;
-}
-
-.upload-modal .inner .file .icon.code {
-    background-image: url(https://i.imgur.com/cFruUPo.png) !important;
-}
-
-.upload-modal .inner .file .icon.photoshop, .upload-modal .inner .file .icon.ps {
-    background-image: url(https://i.imgur.com/4Ntx1QQ.png) !important;
-}
-
-.upload-modal .inner .file .icon.acrobat {
-    background-image: url(https://i.imgur.com/yPumXwv.png) !important;
-}
-
-.upload-modal .inner .file .icon.document {
-    background-image: url(https://i.imgur.com/X1KpID0.png) !important;
-}
-
-.upload-modal .inner .file .icon.webcode {
-    background-image: url(https://i.imgur.com/iiwH60L.png) !important;
-}
-
-.upload-modal .inner .file .icon.unknown {
-    background-image: url(https://i.imgur.com/yoPCa6F.png) !important;
-}
-
-.upload-modal .inner .file .icon.spreadsheet {
-    background-image: url(https://i.imgur.com/5DmdgSm.png) !important;
-}
-
-.upload-modal .inner .file .icon.archive {
-    background-image: url(https://i.imgur.com/BEvKNyR.png) !important;
-}
-
-.upload-modal .inner .file .icon.ai {
-    background-image: url(https://i.imgur.com/y7HALaA.png) !important;
-}
-
-.upload-modal .inner .file .icon.ae {
-    background-image: url(https://i.imgur.com/fO7qFZd.png) !important;
-}
-
-.upload-modal .inner .file .icon.sketch {
-    background-image: url(https://i.imgur.com/G9fA1qZ.png) !important;
-}
-
-
-.icon.icon-file.code {
-    background-image: url(https://i.imgur.com/9lTLxnm.png) !important;
-}
-
-.icon.icon-file.webcode {
-    background-image: url(https://i.imgur.com/kxrIEjm.png) !important;
-}
-
-.icon.icon-file.archive {
-    background-image: url(https://i.imgur.com/Tc3aESM.png) !important;
-}
-
-.icon.icon-file.video {
-  background: url(https://i.imgur.com/N6uJs3S.png) !important;
-}
-
-.icon.icon-file.acrobat {
-  background-image: url(https://i.imgur.com/NTEAzRP.png) !important;
-}
-
-.icon.icon-file.ae {
-  background-image: url(https://i.imgur.com/klFZX7z.png) !important;
-}
-
-.icon.icon-file.sketch {
-  background-image: url(https://i.imgur.com/2abD5sg.png) !important;
-}
-
-.icon.icon-file.ai {
-  background-image: url(https://i.imgur.com/jOPa4jW.png) !important;
-}
-
-.icon.icon-file.document {
-  background-image: url(https://i.imgur.com/w4n1IQG.png) !important;
-}
-
-.icon.icon-file.photoshop,.icon.icon-file.ps {
-  background-image: url(https://i.imgur.com/Kda0rQw.png) !important;
-}
-
-.icon.icon-file.spreadsheet {
-  background-image: url(https://i.imgur.com/w4n1IQG.png) !important;
-}
-
 /* jump to mention/pin */
 div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
     animation-name: color_up;
@@ -1757,7 +1689,7 @@ theme-dark .tabBar-PTjkZh {
     border-color: #000;
 }
 .theme-dark .wrapper-33pNYY {
-    border-bottom-color: #000;
+    border-bottom-color: #1c1c1c;
 }
 .theme-dark .tabBar-PTjkZh {
     border-bottom-color: #000;
