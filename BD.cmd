@@ -41,7 +41,7 @@ echo OPTIONS
 echo =================================
 set Theme=
 set option=
-echo i - Install BeautifulDiscord
+echo i - Install/Update BeautifulDiscord
 echo r - Remove BeautifulDiscord
 echo --------------------------------
 echo 1 - Apply Theme

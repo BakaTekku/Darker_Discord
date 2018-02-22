@@ -607,11 +607,11 @@ textarea.has-results .channel-textarea-inner
 }
 
 /* User Profile popup */
-.userPopout-4pfA0d {
+.userPopout-11hFKo {
     padding: 0;
     box-shadow: 0 0px 16px #000000;
 }
-.headerTop-1QGMLs {
+.headerTop-1QGMLs { 
     padding: 20px 10px;
     background: #161616 url(https://i.imgur.com/u7lHZZ3.png);
     background-size: 270px 213px;
@@ -623,7 +623,7 @@ textarea.has-results .channel-textarea-inner
 .headerPlaying-2eYqm9 {
     background: #212121;
 }
-.theme-dark .headerNormal-1cioxU {
+.theme-dark .headerNormal-3Vn9nT {
     background: #161616 url(https://i.imgur.com/u7lHZZ3.png);
     background-size: 270px 213px;
 }
@@ -633,7 +633,7 @@ textarea.has-results .channel-textarea-inner
 }
 
 .theme-dark .body-3_tdh6 {
-    background-color: #1c1c1c;
+    background-color: #161616;
 }
 
 .buttonBrandInverted-VFL7Yc {
@@ -650,7 +650,7 @@ component.member-role {
     background: transparent !important;
 }
  
-.theme-dark .body-3rkFrF, .theme-dark .footer-2J5zqP {
+.theme-dark .body-3ljq11, .theme-dark .footer-2wFs91 {
     background-color: #1c1c1c;
     padding: 10px;
     border-bottom: 1px solid #212121;
@@ -661,11 +661,11 @@ component.member-role {
     background-size: 270px 213px;
 }
 
-.theme-dark .userPopout-4pfA0d .note textarea:focus {
+.theme-dark .note-2AtC_s textarea:focus {
     background: #111;
 } 
     
-.theme-dark .quickMessage-28pD5Y {
+.theme-dark .quickMessage-OCo-Q0 {
     border: 1px solid #212121;
     background: #111;
     color: #aaa;
@@ -1104,8 +1104,6 @@ component.member-role {
     background: #0f0f0f;
     color: #888;
 }
-*
-/
 
 /* server settings - moderation */
 .theme-dark .layer-kosS71, .theme-dark .layers-20RVFW {
