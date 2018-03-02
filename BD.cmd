@@ -20,8 +20,7 @@ color 0D
 cd "%~d0%~p0"
 
 python --version 2>NUL
-IF %ERRORLEVEL% EQU 1 goto Python_Error
-IF %ERRORLEVEL% EQU 9009 goto Python_Error
+IF %ERRORLEVEL% NEQ 0 goto Python_Error
 
 :Run_Check
 tasklist | find /i "Discord" >nul 2>&1
