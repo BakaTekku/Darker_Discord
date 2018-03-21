@@ -119,7 +119,6 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 .scroller-3J0bdT::-webkit-scrollbar-track-piece{border: none!important;background-color: #161616!important;}
 .scroller-3J0bdT::-webkit-scrollbar{width:10px!important;}
 
-
 /* Server List bar */
 .guilds-wrapper {
   background: #0a0a0a;
@@ -635,6 +634,20 @@ textarea.has-results .channel-textarea-inner
 .lookOutlined-1c5nhl.colorWhite-1IbOTe:hover {
     border-color: #000000;
 }
+/* twitch */
+.buttonInvertedPurple-15OGid {
+    background-color: #593695;
+    color: #fff;
+}
+/* spotify */
+.lookInverted-2lPGe7.colorGreen-22At8E {
+    background-color: #43b581;
+    color: #ffffff;
+}
+.lookInverted-2lPGe7.colorGreen-22At8E:hover {
+    background-color: #43b581; 
+}
+
 /* user profile playing game popout*/
 .headerPlaying-2Q7mBy {
     background: #0f0f0f;
@@ -642,11 +655,15 @@ textarea.has-results .channel-textarea-inner
 
 /* user activity popout */
 .tabBarContainer-3RVZc- {
-    background: #212121;
+    background: #161616;
+    border-top: 1px solid #212121;
 }
 /* playing game body */
 .headerPlaying-2eYqm9 {
     background: #212121;
+}
+.activity-1Sr8Y2 {
+    background-color: rgba(0,0,0,.05);
 }
 .theme-dark .headerNormal-3Vn9nT {
     background: #161616 url(https://i.imgur.com/u7lHZZ3.png);
@@ -711,8 +728,15 @@ component.member-role {
 .theme-dark .footer-2J5zqP {
     padding: 10px;
     background-color: #1c1c1c;
-}    
-    
+}
+/* edit note */
+.theme-dark .root-2sNHUF .note-39NEdV textarea:focus {
+    background-color: #161616;
+}
+/* connected accounts */
+.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignCenter-3VxkQP.noWrap-v6g9vO.connectedAccount-3mKaTA {
+    background: #0a0a0a;
+}     
 /* Pinned messages */
 .messages-popout .channel-separator{
     background-color: #0f0f0f;
@@ -1483,8 +1507,8 @@ form.modal-content.form.alert.has-icon {
 
 
 /* context menu*/
-.theme-dark .contextMenu-uoJTbz {
-    background: #161616!important;
+.theme-dark.contextMenu-uoJTbz {
+    background: #161616 !important;
     border-radius: 2px;
     box-shadow: 0 0px 16px #000000 !important;  
 }
