@@ -333,6 +333,12 @@ textarea.has-results .channel-textarea-inner
     background: -webkit-linear-gradient(left,#111111 85%,#131313);
     background: linear-gradient(to right,#111111 85%,#131313);
 }
+/* member selected */
+.theme-dark .member-2FrNV0.popout-open .content-3JzEqq, .theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq {
+    background: -webkit-linear-gradient(left,#111111 85%,#131313);
+    background: linear-gradient(to right,#111111 85%,#131313);
+    color: #fff;
+}
 /* Voice user limit tag*/
 .wrapper-2ldvyE {
     background-color: #111111;
