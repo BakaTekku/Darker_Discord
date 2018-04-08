@@ -20,7 +20,6 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
         background-color: rgba(0,0,0,0);
     }
 }
-
 /*Discord Boot*/
 .quote-3NlLs0:before {
     content: "NIGHT WAS HERE :) - ";
@@ -46,8 +45,6 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 .theme-dark .number-30pAHE {
     background: #161616;
 }
-
-
 /*User settings main*/
 .theme-dark .ui-standard-sidebar-view .sidebar-region {
     background: #161616;
@@ -327,12 +324,12 @@ textarea.has-results .channel-textarea-inner
     background-color: #0f0f0f;
 }
 /* Members List */
-.theme-dark .channel-members {
+.theme-dark .members-1bid1J {
     background-color: #161616;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.8);
 }
-
-.theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
+/* member list hover */
+.theme-dark .member-2FrNV0:hover .content-3JzEqq {
     background: -webkit-linear-gradient(left,#111111 85%,#131313);
     background: linear-gradient(to right,#111111 85%,#131313);
 }
@@ -742,35 +739,32 @@ component.member-role {
     background-color: #0f0f0f;
     line-height: 32px;
 }
-
-.theme-dark .themed-popout .header {
+.theme-dark .popout .messages-popout-wrap .header {
     background-color: #111111;
     box-shadow: 0 0px 3px #000000;
 }
-
-.theme-dark .themed-popout {
+.theme-dark .popout .messages-popout-wrap {
     background-color: #161616;
     border: none;
     box-shadow: 0 0px 16px #000000;
 }
-
-.theme-dark .messages-popout-wrap .messages-popout .message-group:hover {
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover {
     border-color: transparent;
     background-color: #111111;
 }
 
-.theme-dark .messages-popout-wrap .messages-popout .message-group {
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group {
     border-color: transparent;
     background-color: transparent;
     border-bottom: solid 1px rgba(0,0,0,.3);
 }
 
-.theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
     box-shadow: none;
     background-color: transparent;
 }
 
-.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
     background-color: #191919;
 }
 /* search results */
@@ -1582,7 +1576,7 @@ form.modal-content.form.alert.has-icon {
     color: #aaaaaa;
 }
 
-.theme-dark .themed-popout .footer {
+.theme-dark .popout .messages-popout-wrap .footer {
     background-color: #0f0f0f;
 }
 
