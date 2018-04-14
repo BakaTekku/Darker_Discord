@@ -1,10 +1,8 @@
-/* add this code snippet to your main theme file. */
-
 /* DISABLE ROLE COLORS */
 strong.user-name {
    color: #CCCCCC !important;
 }
 
-.member-username-inner {
+.nameTag-3F0z_i {
    color: #CCCCCC !important;
 }
