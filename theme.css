@@ -748,13 +748,14 @@ component.member-role {
     background: #0a0a0a;
 }     
 /* Pinned messages */
-.theme-dark .themed-popout {
+.theme-dark .popout .messages-popout-wrap
+/* .theme-dark .themed-popout */ {
     background-color: #161616;
     border: none;
     box-shadow: 0 0px 16px #000000;
 }
-
-.theme-dark .themed-popout .header {
+.theme-dark .popout .messages-popout-wrap .header
+/* .theme-dark .themed-popout .header */ {
     background-color: #111111;
     box-shadow: 0 0px 3px #000000;
 }
@@ -763,18 +764,19 @@ component.member-role {
     background-color: #0f0f0f;
     border-radius: 15px;
 }
-
-.messages-popout .message-group {
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group
+/* .messages-popout .message-group */ {
     border-color: transparent;
     background-color: transparent;
     border-bottom: solid 1px rgba(0,0,0,.3);
 }
-.messages-popout .message-group:hover {
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover
+/* .messages-popout .message-group:hover */ {
     border-color: transparent;
     background-color: #111111;
 }
-
-.messages-popout .message-group:hover .action-buttons {
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons
+/* .messages-popout .message-group:hover .action-buttons */ {
     box-shadow: none;
     background-color: transparent;
 }
@@ -782,12 +784,11 @@ component.member-role {
 .theme-dark .themed-popout .header .subtitle, .theme-dark .themed-popout .text {
     color: #aaaaaa;
 }
-
 .messages-popout .channel-separator .channel-name {
     color: #aaaaaa;
 }
-
-.messages-popout .message-group .action-buttons .jump-button {
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button
+/* .messages-popout .message-group .action-buttons .jump-button */ {
     background-color: #191919;
 }
 .messages-popout .message-group .action-buttons .jump-button:hover {
