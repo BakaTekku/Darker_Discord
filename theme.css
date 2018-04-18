@@ -748,38 +748,56 @@ component.member-role {
     background: #0a0a0a;
 }     
 /* Pinned messages */
-.messages-popout .channel-separator {
-    background-color: #0f0f0f;
-    border-radius: 15px;
-}
-.theme-dark .popout .messages-popout-wrap .header {
-    background-color: #111111;
-    box-shadow: 0 0px 3px #000000;
-}
-.theme-dark .popout .messages-popout-wrap {
+.theme-dark .themed-popout {
     background-color: #161616;
     border: none;
     box-shadow: 0 0px 16px #000000;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover {
-    border-color: transparent;
+
+.theme-dark .themed-popout .header {
     background-color: #111111;
+    box-shadow: 0 0px 3px #000000;
 }
 
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group {
+.messages-popout .channel-separator {
+    background-color: #0f0f0f;
+    border-radius: 15px;
+}
+
+.messages-popout .message-group {
     border-color: transparent;
     background-color: transparent;
     border-bottom: solid 1px rgba(0,0,0,.3);
 }
+.messages-popout .message-group:hover {
+    border-color: transparent;
+    background-color: #111111;
+}
 
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+.messages-popout .message-group:hover .action-buttons {
     box-shadow: none;
     background-color: transparent;
 }
 
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+.theme-dark .themed-popout .header .subtitle, .theme-dark .themed-popout .text {
+    color: #aaaaaa;
+}
+
+.messages-popout .channel-separator .channel-name {
+    color: #aaaaaa;
+}
+
+.messages-popout .message-group .action-buttons .jump-button {
     background-color: #191919;
 }
+.messages-popout .message-group .action-buttons .jump-button:hover {
+    color: #aaaaaa;
+}
+
+.theme-dark .themed-popout .footer {
+    background-color: #111111;
+}
+
 /* search results */
 .theme-dark .search-results-wrap .channel-separator:before {
     border-color: rgba(0,0,0,.3);
