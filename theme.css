@@ -464,9 +464,14 @@ textarea.has-results .channel-textarea-inner
 .account .btn-deafen, .account .btn-mute {
     border-right: none;
 }
-/* status picker */
-.popout-menu { border-radius: 0;}
-.menu-3BZuDT {
+/* status picker server popout */
+.popout-2RRwAO { 
+    border-radius: 0;
+    background-color: #161616;
+    border: none;
+    box-shadow: 0 0px 16px #000000;
+}
+.theme-dark .menu-3BZuDT {
   background-color: #161616 !important;
   border-radius: 0px;
   animation: status-picker 600ms ease-in-out!important;
@@ -475,7 +480,7 @@ textarea.has-results .channel-textarea-inner
   background-color: #161616;
   color: #fff;
 }
-.item-rK1j5B:hover {
+.theme-dark .item-rK1j5B:hover {
   background-color: #0f0f0f;
   color: #fff;
 }
@@ -748,54 +753,45 @@ component.member-role {
     background: #0a0a0a;
 }     
 /* Pinned messages */
-.theme-dark .popout .messages-popout-wrap
-/* .theme-dark .themed-popout */ {
+.theme-dark .messagesPopoutWrap-1VBR-j {
     background-color: #161616;
     border: none;
     box-shadow: 0 0px 16px #000000;
 }
-.theme-dark .popout .messages-popout-wrap .header
-/* .theme-dark .themed-popout .header */ {
+.theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc {
     background-color: #111111;
     box-shadow: 0 0px 3px #000000;
 }
-
-.messages-popout .channel-separator {
+.channelSeparator-21vGh8 {
     background-color: #0f0f0f;
     border-radius: 15px;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group
-/* .messages-popout .message-group */ {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group {
     border-color: transparent;
     background-color: transparent;
     border-bottom: solid 1px rgba(0,0,0,.3);
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover
-/* .messages-popout .message-group:hover */ {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover {
     border-color: transparent;
     background-color: #111111;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons
-/* .messages-popout .message-group:hover .action-buttons */ {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .actionButtons-LKmOj2 {
     box-shadow: none;
     background-color: transparent;
 }
-
 .theme-dark .themed-popout .header .subtitle, .theme-dark .themed-popout .text {
     color: #aaaaaa;
 }
 .messages-popout .channel-separator .channel-name {
     color: #aaaaaa;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button
-/* .messages-popout .message-group .action-buttons .jump-button */ {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group .actionButtons-LKmOj2 .jumpButton-1CVJpO {
     background-color: #191919;
 }
 .messages-popout .message-group .action-buttons .jump-button:hover {
     color: #aaaaaa;
 }
-
-.theme-dark .themed-popout .footer {
+.theme-dark .messagesPopoutWrap-1VBR-j .footer-dHccYB {
     background-color: #111111;
 }
 
