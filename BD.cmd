@@ -16,11 +16,31 @@ if '%errorlevel%' NEQ '0' (
 
 setlocal
 title BeautifulDiscord
-color 0D
+color 1B
 cd "%~d0%~p0"
 
-python --version 2>NUL
-IF %ERRORLEVEL% NEQ 0 goto Python_Error
+pushd "%LOCALAPPDATA%\Programs\Python\Python*" >nul 2>&1
+if %errorlevel% EQU 1 (
+color 0C
+echo Error^: Python not installed
+echo During setup make sure to tick the box for "Add Python to path" option.
+echo.
+echo Press ENTER to Download Python...
+pause >nul
+start "" "https://www.python.org/ftp/python/3.6.5/python-3.6.5.exe"
+endlocal
+exit
+)
+if exist "Python.exe" python --version 2>NUL
+IF %ERRORLEVEL% NEQ 0 (
+popd
+color 0C
+echo Error^: Python not added to path!
+echo Please re-install and set "Add Python to path" option.
+pause
+endlocal
+exit
+) 
 
 :Run_Check
 tasklist | find /i "Discord" >nul 2>&1
@@ -35,16 +55,12 @@ if errorlevel 1 (
 
 :Menu
 cls
-echo =================================
-echo OPTIONS
-echo =================================
 set Theme=
 set option=
-echo i - Install/Update BeautifulDiscord
-echo r - Remove BeautifulDiscord
-echo --------------------------------
-echo 1 - Apply Theme
-echo 2 - Revert changes
+echo [i] - Install/Update BeautifulDiscord
+echo [r] - Remove BeautifulDiscord
+echo [1] - Apply Theme
+echo [2] - Revert changes
 echo.
 set /p option="Enter Option:"
 if /i "%option%"=="i" goto Install_BD
@@ -102,14 +118,3 @@ cls
 beautifuldiscord --revert
 pause
 goto Menu
-
-:Python_Error
-color 0C
-echo Error^: Python not installed
-echo During setup make sure to tick the box for "Add Python to path" option.
-echo.
-echo Press ENTER to Download Python...
-pause >nul
-start "" "https://www.python.org/ftp/python/3.6.4/python-3.6.4.exe"
-endlocal
-exit
