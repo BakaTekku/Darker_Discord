@@ -1666,18 +1666,23 @@ form.modal-content.form.alert.has-icon {
     background-image: none;
 }
 
-.theme-dark .quickswitcher-2NdiGJ {
+.theme-dark .quickswitcher-3JagVE {
     background-color: #161616;
     box-shadow: 0 0px 3px #000000;
 }
-
-.theme-dark .input-MwQhcX {
+.theme-dark .resultFocused-3aIoYe {
+    background-color: #0f0f0f;
+}
+.theme-dark .input-2VB9rf {
     background-color: #0a0a0a;
 }
-
-.keybind-shortcut.dark span {
+.theme-dark .keybindShortcut-1BD6Z1 span {
     border-color: #000000;
     background-color: #0a0a0a;
+}
+/* keyboard shortcuts popout */
+.theme-dark .keyboardShortcutsModal-3piNz7 {
+    background-color: #161616;
 }
 /* File uploader */
 .upload-drop-modal .bgScale {
