@@ -107,7 +107,6 @@ if not exist "!chooser!" "%%I" /nologo /out:"!chooser!" "%temp%\c.cs" 2>NUL
 del "%temp%\c.cs"
 setlocal disabledelayedexpansion	
 for /f "delims=" %%I in ('%chooser%') do endlocal & set Theme=%%I
-del "%temp%\dfc.exe" 2>NUL
 if "%Theme%"=="" endlocal & goto Menu
 beautifuldiscord --css "%Theme%"
 pause
