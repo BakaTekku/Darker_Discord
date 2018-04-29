@@ -917,54 +917,46 @@ textarea.has-results .channel-textarea-inner
     background-image: none;
 }
 /* Emoji picker context menu */
-.emoji-picker .scroller::-webkit-scrollbar-thumb{border:3px solid transparent!important;background-color:#333!important}
-.emoji-picker .scroller::-webkit-scrollbar-track-piece{border:3px solid #19191b!important;background-color:#1a1a1a!important}
-.emoji-picker .scroller::-webkit-scrollbar{width:5px}
+.emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-thumb{border:3px solid transparent!important;background-color:#0f0f0f!important}
+.emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece{border:3px solid #19191b!important;background-color:#161616!important}
+.emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar{width:5px}
 
-.emojiPicker-3g68GS .header-27dQ-e {
+.emojiPicker-3m1S-j .header-1nkwgG {
     background: #0f0f0f;
 }
-
 .emoji-picker .header {
     border-bottom: 1px solid #1c1c1c;
 }
-
 .search-bar.search-bar-light .search-bar-inner {
     background-color: #161616;
 }
-
-.emojiPicker-3g68GS .stickyHeader-3LjM5X {
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
     background: #161616;
 }
-
 .search-bar.search-bar-light {
     background-color: #0f0f0f;
 }
-
 .search-bar.search-bar-light input {
     color: #aaa;
 }
-
-.emojiPicker-3g68GS {
+.emojiPicker-3m1S-j {
     background-color: #161616;
     border: 0px;
     box-shadow: 0 0px 3px #000000;
     border-radius: 0px;
 }
-
-.emojiPicker-3g68GS .scroller-2dsok0 .emojiItem-3l4Fa9.selected-1LQfcZ {
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
     background-color: #111;
 }
-
-.emojiPicker-3g68GS .category-3rCtoh {
+.emojiPicker-3m1S-j .category-2U57w6 {
     border-top: 1px solid #1c1c1c;
     color: #DEDEDE;
 }
 /* diversity selector */
-.emojiPicker-3g68GS .dimmer-jySV_v.visible-1CGy1m {
+.emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ {
     background-color: hsla(0,0%,6%,.6);
 }
-.diversitySelector-O3ea2c .popout-2lja3I {
+.diversitySelector-tmmMv0 .popout-2nUePc {
     background: #0f0f0f;
     border: 1px solid #0a0a0a;
 }
