@@ -1,4 +1,12 @@
 /* Channel Categories*/
-.wrapperCollapsed-18mf-c, .wrapperDefault-1Dl4SS, .wrapperHovered-1KDCyZ, .wrapperHoveredCollapsed-25KVVp, .wrapperMuted-PmsxPn, .wrapperUnread-450E16 {
+.wrapperCollapsed-3Fbxl6, .wrapperDefault-10Jfvz, .wrapperHovered-28fu1D, .wrapperHoveredCollapsed-1PADEo, .wrapperMuted-3KeA2M, .wrapperUnread-1JPWj3 {
     background: #0f0f0f;
+}
+.contentSelectedText-3wUhMi {
+    background-color: transparent;
+}
+.nameSelectedText-sp_EUw{
+    color: #43b581;
+    text-decoration: underline;
+    font-weight: bold;
 }

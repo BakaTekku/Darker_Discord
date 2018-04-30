@@ -33,7 +33,15 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 }
 
 .appMount-3VJmYg {
-    background-color: #0a0a0a;
+    background-color: #0f0f0f;
+}
+
+.wordmark-2iDDfm {
+    background: #0a0a0a;
+}
+
+.header-2o-2hj {
+    background-color: #0f0f0f;
 }
 
 .theme-dark .layer-kosS71, .theme-dark .layers-20RVFW {
@@ -128,8 +136,7 @@ html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, c
 .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
     background-color: #1c1c1c;
 }
-
-.channelNotices-41mJbj .channelNotice-1-XFjC.invite-1D-l1h, .channelNotices-3AUnoM .channelNotice-cQsVXw.lfg-3h9KFj {
+.channelNotices-41mJbj .channelNotice-1-XFjC.invite-OjTXrW {
     background: #0f0f0f url(https://discordapp.com/assets/8fdb69b7684b8e1ecb3fdde909daca41.svg) no-repeat center 20px;
 }
 
@@ -1708,8 +1715,8 @@ form.modal-content.form.alert.has-icon {
 .theme-brand .textArea-20yzAH {
     background: #161616;
 }
-.theme-brand .content-249Pr9 {
-    color: #dedede;
+.theme-brand .content-Qb0rXO {
+    color: #bbbbbb;
 }
 
 .upload-modal .inner {

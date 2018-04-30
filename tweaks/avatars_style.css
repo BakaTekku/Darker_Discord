@@ -1,42 +1,142 @@
-/* add only ONE code snippet to your main theme file. */
-
 /* ROUNDED AVATARS*/
-.guilds-wrapper .guilds .guild .guild-inner { 
-  -webkit-border-radius: 15px !important;
-  border-radius: 15px !important;
+.avatar-large {
+    border-radius: 8%;
 }
 
-.avatar-large { 
-  -webkit-border-radius: 6px !important;
-  border-radius: 6px !important;
+.maskProfile-1ObLFT {
+    -webkit-mask: none;
+    mask: none;
 }
 
-.avatar-small { 
-  -webkit-border-radius: 8px !important;
-  border-radius: 8px !important;
+.container-2Thooq .avatar-small {
+    border-radius: 8%;
+}
+.avatarHint-1qgaV3 {
+    border-radius: 8%;
+}
+.image-33JSyf.maskProfile-1ObLFT.mask-3OgeRz {
+    border-radius: 8%;
+}
+.avatarWrapper-3H_478 {
+    border-radius: 8%;
+}
+.avatar-16XVId {
+    border-radius: 8%;
 }
 
-.avatarDefault-3jtQoc, .avatarSpeaking-3teDH6 { 
-  -webkit-border-radius: 5px !important;
-  border-radius: 5px !important;
+=================================
+
+/* SERVER AVATARS ONLY */
+.guilds-wrapper .guilds .guild .guild-inner {
+    border-radius: 15px !important;
 }
+
+=================================
+
+/* ONLINE MEMBER LIST AVATARS ONLY */
+.mask-3OgeRz {
+    -webkit-mask: none;
+    mask: none;
+}
+.image-33JSyf.mask-3OgeRz {
+    border-radius: 15%;
+}
+=================================
+
+/* PRIVATE MESSAGE AVATARS ONLY */
+.private-channels .channel .avatar-small {
+    border-radius: 8%;
+}
+=================================
+
+/* FRIENDS LIST AVATARS ONLY */
+#friends .friends-table .friends-row .friends-column-name .avatar-small {
+    border-radius: 8%;
+}
+=================================
+
+/* MUTUAL SERVER AVATARS ONLY */
+#friends .friends-table .friends-row .friends-column-guilds .avatar-small {
+    border-radius: 8%;
+}
+=================================
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
 
 
 
 
 /* SQUARE AVATARS */
-.guilds-wrapper .guilds .guild .guild-inner { 
-    border-radius: 0 !important;
+.avatar-large {
+    border-radius: 0%;
 }
 
-.avatar-large { 
-    border-radius: 0 !important;
+.maskProfile-1ObLFT {
+    -webkit-mask: none;
+    mask: none;
 }
 
-.avatar-small {
-    border-radius: 0 !important;
+.container-2Thooq .avatar-small {
+    border-radius: 0;
+}
+.avatarHint-1qgaV3 {
+    border-radius: 0;
+}
+.image-33JSyf.maskProfile-1ObLFT.mask-3OgeRz {
+    border-radius: 0;
+}
+.avatarWrapper-3H_478 {
+    border-radius: 0;
+}
+.avatar-16XVId {
+    border-radius: 0;
 }
 
-.avatarDefault-3jtQoc, .avatarSpeaking-3teDH6 {
-  border-radius: 0 !important;
+
+=================================
+
+/* SERVER AVATARS ONLY */
+.guilds-wrapper .guilds .guild .guild-inner {
+    border-radius: 0px !important;
 }
+
+=================================
+
+/* ONLINE MEMBER LIST AVATARS ONLY */
+.mask-3OgeRz {
+    -webkit-mask: none;
+    mask: none;
+}
+.image-33JSyf.mask-3OgeRz {
+    border-radius: 0;
+}
+=================================
+
+/* PRIVATE MESSAGE AVATARS ONLY */
+.private-channels .channel .avatar-small {
+    border-radius: 0;
+}
+=================================
+
+/* FRIENDS LIST AVATARS ONLY */
+#friends .friends-table .friends-row .friends-column-name .avatar-small {
+    border-radius: 0;
+}
+=================================
+
+/* MUTUAL SERVER AVATARS ONLY */
+#friends .friends-table .friends-row .friends-column-guilds .avatar-small {
+    border-radius: 0;
+}
+=================================
