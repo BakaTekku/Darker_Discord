@@ -61,6 +61,19 @@
 }
 =================================
 
+/* USER PROFILE MUTUAL SERVER AVATARS ONLY*/
+.listAvatar-1NlAhb {
+    border-radius: 8%;
+}
+=================================
+
+/* USER PROFILE MUTUAL FRIEND AVATARS ONLY */
+.image-33JSyf.mask-3OgeRz {
+    border-radius: 8%;
+    -webkit-mask: none;
+    mask: none;
+}
+=================================
 
 
 
@@ -138,5 +151,19 @@
 /* MUTUAL SERVER AVATARS ONLY */
 #friends .friends-table .friends-row .friends-column-guilds .avatar-small {
     border-radius: 0;
+}
+=================================
+
+/* USER PROFILE MUTUAL SERVER AVATARS ONLY*/
+.listAvatar-1NlAhb {
+    border-radius: 0;
+}
+=================================
+
+/* USER PROFILE MUTUAL FRIEND AVATARS ONLY */
+.image-33JSyf.mask-3OgeRz {
+    border-radius: 0;
+    -webkit-mask: none;
+    mask: none;
 }
 =================================
