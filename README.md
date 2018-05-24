@@ -1,4 +1,4 @@
-# Discord_Theme
+# Darker_Discord
 
 A darker Discord theme made by Night#9471 for use with BeautifulDiscord.
 
