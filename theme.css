@@ -1,7 +1,7 @@
 html, body, a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
     text-shadow: 1px 1px #000000;
 }
-.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .container-2lgZY8 {
+html, body, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .container-2lgZY8 {
     background: #161616;
 }
 
@@ -1837,35 +1837,48 @@ theme-dark .tabBar-PTjkZh {
     border-color: #000000;
 }
 
-/* activity */
-.theme-dark .activityFeed-HeiGwL {
+/* games tab */
+.theme-dark .activityFeed-28jde9 {
     background-color: #161616;
     box-shadow: inset 16px 0px 16px -16px rgba(0,0,0,0.8);
 }
-.theme-dark .card-2WxYqG {
+.theme-dark .card-7JP0BX {
     background-color: #161616;
     border-color: #101010;
     color: #f6f6f7;
 }
-.theme-dark .header-1qeJfQ {
+.theme-dark .header-1RC2Wb {
     background-color: #111;
     border-bottom-color: transparent;
 }
-.theme-dark .body-8pBSC7 {
+.theme-dark .body-SKIE6r {
     background-color: #141414;
 }
-.theme-dark .partyBottomBorder-EvU-Qp {
-    background-color: #1c1c1c;
+.theme-dark .player-1kJMbj {
+    border-bottom-color: rgba(0,0,0,.3);
 }
-.theme-dark .newsIconCircle-2mzNOD {
+.theme-dark .headerText-2niCs_ {
+    border-top-color: rgba(0,0,0,.3);
+    color: #dcddde;
+}
+.theme-dark .sectionLine-JjseS9 {
+    background-color: rgba(0,0,0,.3);
+}
+.theme-dark .header-1RC2Wb:hover {
     background-color: #0f0f0f;
 }
-.theme-dark .content-1RjmSK {
-    background-color: #0f0f0f;
+.paginationItem-3-MBTL:after {
+    background: linear-gradient(270deg,transparent 0,#111);
 }
-.theme-dark .content-1RjmSK:hover {
+.news-2GDtLJ {
     background-color: #111;
 }
-.theme-dark .sectionLine-3fsQAf {
-    background-color: #1c1c1c;
+.newsLink-38Naqi:hover {
+    background-color: #0f0f0f;
+}
+.theme-dark .dockItem-2kQDqg:hover {
+    background-color: #0f0f0f;
+}
+.article-FleDq5 {
+    background-color: #0f0f0f;
 }
