@@ -217,11 +217,11 @@ html, body, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .container-2l
     border-bottom-color: rgba(0,0,0,.3);
 }
 /* Blocked Message */
-.theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .container-1YxwTf-blocked .container-1YxwTf-blocked-btn {
+.theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {
     background: #0f0f0f;
     color: #aaa;
 }
-.theme-dark .friends-table .messages-3amgkR .container-1YxwTf-blocked .container-1YxwTf-blocked-btn:hover, .theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .container-1YxwTf-blocked .container-1YxwTf-blocked-btn:hover {
+.theme-dark .friends-table .messages-3amgkR .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover, .theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover {
     background: #1c1c1c;
 }
 /* @mention hover */
@@ -229,12 +229,12 @@ html, body, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .container-2l
     background-color: transparent;
 }
 
-.theme-dark .friends-table .messages-3amgkR .container-1YxwTf-blocked, .theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .container-1YxwTf-blocked {
+.theme-dark .friends-table .messages-3amgkR .messageGroupBlocked-3wrQQX, .theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .messageGroupBlocked-3wrQQX {
     background: #0f0f0f;
     border-color: #0a0a0a;
 }
 
-.theme-dark .friends-table .messages-3amgkR .container-1YxwTf-blocked.revealed, .theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .container-1YxwTf-blocked.revealed {
+.theme-dark .friends-table .messages-3amgkR .messageGroupBlocked-3wrQQX.revealed, .theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .messageGroupBlocked-3wrQQX.revealed {
     border-color: #0a0a0a;
     background: #141414;
 }
@@ -772,16 +772,16 @@ textarea.has-results .channel-textarea-inner
     background-color: #0f0f0f;
     border-radius: 15px;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .container-1YxwTf {
+.theme-dark .messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G {
     border-color: transparent;
     background-color: transparent;
     border-bottom: solid 1px rgba(0,0,0,.3);
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .container-1YxwTf:hover {
+.theme-dark .messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G:hover {
     border-color: transparent;
     background-color: #0f0f0f;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .container-1YxwTf:hover .actionButtons-1sUUug {
+.theme-dark .messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
     box-shadow: none;
     background-color: transparent;
 }
@@ -791,7 +791,7 @@ textarea.has-results .channel-textarea-inner
 .messages-popout .channel-separator .channel-name {
     color: #aaaaaa;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .container-1YxwTf .actionButtons-1sUUug .jumpButton-3DTcS_ {
+.theme-dark .messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G .actionButtons-1sUUug .jumpButton-3DTcS_ {
     background-color: #191919;
 }
 .messages-popout .container-1YxwTf .action-buttons .jump-button:hover {
@@ -940,16 +940,16 @@ textarea.has-results .channel-textarea-inner
 .emoji-picker .header {
     border-bottom: 1px solid #1c1c1c;
 }
-.search-bar.search-bar-light .search-bar-inner {
+.search-bar.searchBar-2_Yu-C.search-bar-light .searchBarInner-1_Tg2R {
     background-color: #161616;
 }
 .emojiPicker-3m1S-j .stickyHeader-1SS0JU {
     background: #161616;
 }
-.search-bar.search-bar-light {
+.search-bar.searchBar-2_Yu-C.search-bar-light {
     background-color: #0f0f0f;
 }
-.search-bar.search-bar-light input {
+.search-bar.searchBar-2_Yu-C.search-bar-light input {
     color: #aaa;
 }
 .emojiPicker-3m1S-j {
@@ -975,7 +975,7 @@ textarea.has-results .channel-textarea-inner
 }
 
 /* local bot message */
-.theme-dark .container-1YxwTf.is-local-bot-message {
+.theme-dark .container-1YxwTf.isLocalBot-38G0P0 {
     background-image: none;
     border-color: transparent;
     background-color: #0f0f0f;
