@@ -217,11 +217,11 @@ html, body, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .container-2l
     border-bottom-color: rgba(0,0,0,.3);
 }
 /* Blocked Message */
-.theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .container-1YxwTf-blocked .container-1YxwTf-blocked-btn {
+.theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {
     background: #0f0f0f;
     color: #aaa;
 }
-.theme-dark .friends-table .messages-3amgkR .container-1YxwTf-blocked .container-1YxwTf-blocked-btn:hover, .theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .container-1YxwTf-blocked .container-1YxwTf-blocked-btn:hover {
+.theme-dark .friends-table .messages-3amgkR .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover, .theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover {
     background: #1c1c1c;
 }
 /* @mention hover */
@@ -229,12 +229,12 @@ html, body, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .container-2l
     background-color: transparent;
 }
 
-.theme-dark .friends-table .messages-3amgkR .container-1YxwTf-blocked, .theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .container-1YxwTf-blocked {
+.theme-dark .friends-table .messages-3amgkR .messageGroupBlocked-3wrQQX, .theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .messageGroupBlocked-3wrQQX {
     background: #0f0f0f;
     border-color: #0a0a0a;
 }
 
-.theme-dark .friends-table .messages-3amgkR .container-1YxwTf-blocked.revealed, .theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .container-1YxwTf-blocked.revealed {
+.theme-dark .friends-table .messages-3amgkR .messageGroupBlocked-3wrQQX.revealed, .theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .messageGroupBlocked-3wrQQX.revealed {
     border-color: #0a0a0a;
     background: #141414;
 }
@@ -975,7 +975,7 @@ textarea.has-results .channel-textarea-inner
 }
 
 /* local bot message */
-.theme-dark .container-1YxwTf.is-local-bot-message {
+.theme-dark .container-1YxwTf.isLocalBot-38G0P0 {
     background-image: none;
     border-color: transparent;
     background-color: #0f0f0f;
