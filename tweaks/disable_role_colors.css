@@ -1,8 +1,6 @@
-/* DISABLE ROLE COLORS */
-strong.user-name {
+.usernameOnline-3jr_0Y, .theme-dark .username-_4ZSMR {
    color: #CCCCCC !important;
 }
-
-.nameTag-3F0z_i {
-   color: #CCCCCC !important;
+.usernameOffline-3VSVLk {
+    color: rgba(185, 187, 190, 0.9);
 }
