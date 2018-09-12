@@ -1,169 +1,23 @@
-/* ROUNDED AVATARS*/
-.avatar-large {
-    border-radius: 8%;
-}
+/* 
+border-radius: 
+15% = Rounded, 0% = Squared
+change the % as needed
+*/
 
-.maskProfile-1ObLFT {
+.maskProfile-1ObLFT, .mask-3OgeRz {
     -webkit-mask: none;
     mask: none;
 }
 
-.container-2Thooq .avatar-small {
-    border-radius: 8%;
-}
-.avatarHint-1qgaV3 {
-    border-radius: 8%;
-}
-.image-33JSyf.maskProfile-1ObLFT.mask-3OgeRz {
-    border-radius: 8%;
-}
-.avatarWrapper-3H_478 {
-    border-radius: 8%;
-}
-.avatar-16XVId {
-    border-radius: 8%;
-}
-
-=================================
-
-/* SERVER AVATARS ONLY */
-.guilds-wrapper .guilds .guild .guild-inner {
-    border-radius: 15px !important;
-}
-
-=================================
-
-/* ONLINE MEMBER LIST AVATARS ONLY */
-.mask-3OgeRz {
-    -webkit-mask: none;
-    mask: none;
-}
-.image-33JSyf.mask-3OgeRz {
+.large-3ChYtB {
     border-radius: 15%;
 }
-=================================
-
-/* PRIVATE MESSAGE AVATARS ONLY */
-.private-channels .channel .avatar-small {
-    border-radius: 8%;
-}
-=================================
-
-/* FRIENDS LIST AVATARS ONLY */
-#friends .friends-table .friends-row .friends-column-name .avatar-small {
-    border-radius: 8%;
-}
-=================================
-
-/* MUTUAL SERVER AVATARS ONLY */
-#friends .friends-table .friends-row .friends-column-guilds .avatar-small {
-    border-radius: 8%;
-}
-=================================
-
-/* USER PROFILE MUTUAL SERVER AVATARS ONLY*/
-.listAvatar-1NlAhb {
-    border-radius: 8%;
-}
-=================================
-
-/* USER PROFILE MUTUAL FRIEND AVATARS ONLY */
-.image-33JSyf.mask-3OgeRz {
-    border-radius: 8%;
-    -webkit-mask: none;
-    mask: none;
-}
-=================================
-
-
-
-
-
-
-------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-/* SQUARE AVATARS */
-.avatar-large {
-    border-radius: 0%;
-}
-
-.maskProfile-1ObLFT {
-    -webkit-mask: none;
-    mask: none;
-}
-
-.container-2Thooq .avatar-small {
-    border-radius: 0;
+.image-33JSyf.popout-2fzvxG.maskProfile-1ObLFT.mask-3OgeRz {
+    border-radius: 15%;
 }
 .avatarHint-1qgaV3 {
-    border-radius: 0;
+    border-radius: 15%;
 }
-.image-33JSyf.maskProfile-1ObLFT.mask-3OgeRz {
-    border-radius: 0;
+.image-33JSyf.profile-ZOdGIb.maskProfile-1ObLFT.mask-3OgeRz {
+    border-radius: 15%;
 }
-.avatarWrapper-3H_478 {
-    border-radius: 0;
-}
-.avatar-16XVId {
-    border-radius: 0;
-}
-
-
-=================================
-
-/* SERVER AVATARS ONLY */
-.guilds-wrapper .guilds .guild .guild-inner {
-    border-radius: 0px !important;
-}
-
-=================================
-
-/* ONLINE MEMBER LIST AVATARS ONLY */
-.mask-3OgeRz {
-    -webkit-mask: none;
-    mask: none;
-}
-.image-33JSyf.mask-3OgeRz {
-    border-radius: 0;
-}
-=================================
-
-/* PRIVATE MESSAGE AVATARS ONLY */
-.private-channels .channel .avatar-small {
-    border-radius: 0;
-}
-=================================
-
-/* FRIENDS LIST AVATARS ONLY */
-#friends .friends-table .friends-row .friends-column-name .avatar-small {
-    border-radius: 0;
-}
-=================================
-
-/* MUTUAL SERVER AVATARS ONLY */
-#friends .friends-table .friends-row .friends-column-guilds .avatar-small {
-    border-radius: 0;
-}
-=================================
-
-/* USER PROFILE MUTUAL SERVER AVATARS ONLY*/
-.listAvatar-1NlAhb {
-    border-radius: 0;
-}
-=================================
-
-/* USER PROFILE MUTUAL FRIEND AVATARS ONLY */
-.image-33JSyf.mask-3OgeRz {
-    border-radius: 0;
-    -webkit-mask: none;
-    mask: none;
-}
-=================================
