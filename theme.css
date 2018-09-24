@@ -203,10 +203,11 @@ img.image-2jyRAK.loaded-3PtF_J {
     background: #121316;
     box-shadow: 0 1px 0 rgba(0,0,0,.00);
 }
-/* Load more messages modal */
-.theme-dark .chat .has-more button {
-    background: #0c0c0c;
-    border: 1px solid #0e0e0e;
+
+/* load more messages */
+.theme-dark .hasMore-3e72_v button {
+    background: #121316;
+    border: none;
 }
 /* Chat messages Content */
 .flex-spacer.flex-vertical {
@@ -234,7 +235,7 @@ img.image-2jyRAK.loaded-3PtF_J {
 }
 /* Messages Divider */
 .theme-dark .dividerEnabled-2TTlcf {
-    box-shadow: 0px 0px 4px 0px;
+    box-shadow: 0px 0px 4px 0px #000000;
 }
 /* message date divider */
 .theme-dark .divider-3gKybi:not(.red-1YQ4s7) span {
@@ -342,10 +343,6 @@ img.image-2jyRAK.loaded-3PtF_J {
 /* typing */
 .theme-dark .typing-2GQL18 {
     background-color: transparent;
-}
-
-.typing-2GQL18 {
-    left: 20px;
 }
 
 .theme-dark .channel-textarea-emoji {
@@ -580,12 +577,13 @@ textarea.has-results .channel-textarea-inner
 .theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {
     background-color: #0c0c0c;
 }
-.private-channels .channel.selected a {
+.channel-2QD9_O.selected-1HYmZZ a {
     background-color: #0c0c0c;
 }
 
-.private-channels .channel:hover a {
+.channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a {
     background-color: #0c0c0c;
+    color: #fff;
 }
 
 .theme-dark #friends {
@@ -595,7 +593,7 @@ textarea.has-results .channel-textarea-inner
 /* friends header */
 .theme-dark .headerBar-UHpsPw {
     -webkit-box-shadow: none;
-    background: #0c0c0c;
+    background: #121316;
     box-shadow: none;
 }
 
