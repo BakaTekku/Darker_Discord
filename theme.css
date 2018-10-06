@@ -238,16 +238,15 @@ img.image-2jyRAK.loaded-3PtF_J {
     box-shadow: 0px 0px 4px 0px #000000;
 }
 /* message date divider */
-.theme-dark .divider-3gKybi:not(.red-1YQ4s7) span {
-    color: #aaa;
+.theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI {
+    color: rgba(255,255,255,.6);
 }
-.theme-dark .divider-3gKybi:before, .theme-dark .divider-3gKybi span {
-    background-color: #121316;
+
+.theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before {
+    border-color: #222;
+    box-shadow: 0px -1px 0px 0px #000;
 }
-.theme-dark .divider-3gKybi:not(.red-1YQ4s7) div {
-    background: #000000;
-    box-shadow: 0px -1px 0px 0px #232323;
-}
+
 .theme-dark .divider-3gKybi.dividerRed-MKoLlr>div {
     opacity: 1;
 }
