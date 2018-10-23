@@ -1326,6 +1326,16 @@ textarea.has-results .channel-textarea-inner
 }
 
 /* server overview */
+.theme-dark .standardSidebarView-3F1I7i {
+    background: #18191c;
+}
+.theme-dark .sidebarRegion-VFTUkN {
+    background: #121316;
+}
+.theme-dark .contentRegion-3nDuYy {
+    background: #18191c;
+}
+
 .theme-dark .select-2TCrqx .Select-control {
     background: #121316;
     border: none !important;
@@ -1883,70 +1893,8 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
 }
-/* LFG Main Screen*/
-.theme-dark .gameSelector-24sFfz {
-    background-color: #111;
-    border-color: #000;
-}
-.theme-dark .wrapperDefault-NeXRmD { /*user count*/
-    background-color: #0c0c0c;
-}
-.theme-dark .lfg-3xoFkI {
-    background-color: #18191c;
-    box-shadow: inset 16px 0px 16px -16px rgba(0,0,0,0.8);
-}
-.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.directionRow-yNbSvJ.justifyBetween-1d1Hto.alignCenter-3VxkQP.noWrap-v6g9vO.listHeader-1GwSBl {
-    background: #0c0c0c;
-}
-theme-dark .tabBar-PTjkZh {
-    border-bottom-color: transparent;
-}
-.theme-dark .gameDefault-2SBp6B:focus, .theme-dark .gameDefault-2SBp6B:hover {
-    background-color: #0c0c0c;
-    border-color: #000;
-}
-.theme-dark .wrapper-33pNYY {
-    border-bottom-color: #1c1c1c;
-}
-.theme-dark .tabBar-PTjkZh {
-    border-bottom-color: #000;
-}
-.buttonGreyFilled-3qPP_J {
-    background-color: #1c1c1c;
-    color: #fff;
-    border: solid 1px #000;
-}
-.theme-dark .searchBar-YMJBu9 {
-    background-color: #0c0c0c;
-}
-/* hover */
-.theme-dark .card-11ynQk::before {
-    background-color: #111111;
-    border-color: #111;
-}
-.buttonBrandFilled-3Mv0Ra {
-    background-color: #1c1c1c;
-}
-/*lfg create group*/
-.theme-dark .input-2YozMi:focus {
-    border-color: #000;
-}
-/* embed invites */
-.theme-dark .wrapper-35wsBm {
-background: #121316;
-    border: none;
-    box-shadow: 0px 0px 3px 0px;
-}
-.theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6,
-.theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6:hover {
-    border: none;
-    background: #FF4C4C;
-}
-.theme-dark .gameSelected-31teRt {
-    background: #0c0c0c;
-    border-color: #000000;
-}
-/* games tab */
+
+/* Activity */
 /* games pop out*/
 .theme-dark .gamePreview-9weYR2 {
     background-color: #18191c;
@@ -1975,11 +1923,11 @@ background: #121316;
     color: #f6f6f7;
 }
 .theme-dark .header-1RC2Wb {
-    background-color: #0c0c0c;
+    background-color: rgba(0,0,0,0.3);
     border-bottom-color: transparent;
 }
 .theme-dark .body-SKIE6r {
-    background-color: #151619;
+    background-color: #121316;
 }
 .theme-dark .player-1kJMbj {
     border-bottom-color: rgba(0,0,0,.3);
@@ -2011,4 +1959,39 @@ background: #121316;
 }
 .article-FleDq5 {
     background-color: #0c0c0c;
+}
+
+/* Library */
+.theme-dark .gameLibrary-TTDw4Y {
+    background-color: #18191c;
+    box-shadow: inset 16px 0px 16px -16px rgba(0,0,0,0.8);
+}
+.theme-dark .header-39GIC8 {
+    background-color: #18191c;
+    box-shadow: inset 16px 0px 16px -16px rgba(0,0,0,0.8);
+    border-bottom-color: rgba(0,0,0,.3);
+}
+.theme-dark .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY {
+    border-top-color: rgba(0,0,0,.3);
+}
+.theme-dark .rowWrapperActive-2L7i9f {
+    background-color: rgba(0,0,0,.3);
+}
+
+/* Store */
+@media (min-width: 849px)
+.theme-dark .itemBackground-1jfD8p:before {
+    background: radial-gradient(ellipse at top,rgba(54,57,63,0),#18191c),-webkit-gradient(linear,left top,right top,from(#18191c),color-stop(40%,rgba(54,57,63,0)),color-stop(60%,rgba(54,57,63,0)),to(#18191c)),-webkit-gradient(linear,left bottom,left top,from(#18191c),color-stop(25%,rgba(54,57,63,0)));
+    background: radial-gradient(ellipse at top,rgba(54,57,63,0),#18191c),linear-gradient(90deg,#18191c 0,rgba(54,57,63,0) 40%,rgba(54,57,63,0) 60%,#18191c),linear-gradient(0deg,#18191c 0,rgba(54,57,63,0) 25%);
+}
+.theme-dark .itemBackground-1jfD8p:before {
+    background: radial-gradient(ellipse at top,rgba(54,57,63,0),#18191c),-webkit-gradient(linear,left top,right top,from(#18191c),color-stop(40%,rgba(54,57,63,0)),color-stop(60%,rgba(54,57,63,0)),to(#18191c)),-webkit-gradient(linear,left bottom,left top,color-stop(10%,#18191c),color-stop(70%,rgba(54,57,63,0)));
+    background: radial-gradient(ellipse at top,rgba(54,57,63,0),#18191c),linear-gradient(90deg,#18191c 0,rgba(54,57,63,0) 40%,rgba(54,57,63,0) 60%,#18191c),linear-gradient(0deg,#18191c 10%,rgba(54,57,63,0) 70%);
+}
+.theme-dark .applicationStore-1pNvnv {
+    background-color: #18191c;
+    box-shadow: inset 16px 0px 16px -16px rgba(0,0,0,0.8);
+}
+.theme-dark .tileWrapper-2khh-w {
+    background-color: #121316;
 }
