@@ -660,6 +660,22 @@ textarea.has-results .channel-textarea-inner
     background-color: #18191c;
 }
 /*search popout*/
+.theme-dark .focused-2bY0OD {
+    background-color: #121316;
+}
+.theme-dark .container-3ayLPN {
+    background-color: #18191c;
+    box-shadow: 0 0px 16px #000000;
+}
+.theme-dark .option-96V44q:after {
+    background: -webkit-gradient(linear,left top,right top,from(rgba(54,57,63,0)),color-stop(80%,#18191c));
+    background: linear-gradient(90deg,rgba(54,57,63,0),#18191c 80%);
+}
+.theme-dark .option-96V44q.selected-rZcOL-:after {
+    background: -webkit-gradient(linear,left top,right top,from(rgba(35,38,42,0)),color-stop(50%,#121316));
+    background: linear-gradient(90deg,rgba(35,38,42,0),#121316 50%);
+}
+/* expand results */
 .theme-dark .search-results-wrap .search-result.expanded {
     border: 2px solid #0c0c0c;
 }
@@ -1789,6 +1805,21 @@ textarea.has-results .channel-textarea-inner
     background-color: #0c0c0c;
     border-color: #000000;
 }
+/* invite embed */
+.theme-dark .wrapper-35wsBm {
+    background: #121316;
+    border: none;
+    box-shadow: 0px 0px 4px 0px #000000;
+}
+.theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
+    border: none;
+    color: #fff;
+    background: #43b581;
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+    background-color: #d84040;
+    color: #fff;
+}
 /* audio embed */
 .theme-dark .wrapperAudio-1jDe0Q {
     background-color: #121316;
@@ -1802,10 +1833,10 @@ textarea.has-results .channel-textarea-inner
 .theme-dark .reaction.reaction-me .reaction-count {
     color: #aaaaaa;
 }
-
-.theme-dark .reaction.reaction-me {
-    background: #0c0c0c;
+.theme-dark .reaction-1ELvT8.reactionMe-23mbRf {
+    background: rgba(0,0,0,.3);
 }
+
 /* Quick switch menu  */
 .quickswitcher-2NdiGJ:before {
     background-image: none;
@@ -1993,5 +2024,8 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
     box-shadow: inset 16px 0px 16px -16px rgba(0,0,0,0.8);
 }
 .theme-dark .tileWrapper-2khh-w {
+    background-color: #121316;
+}
+.theme-dark .applicationTile-1Goy1W {
     background-color: #121316;
 }
