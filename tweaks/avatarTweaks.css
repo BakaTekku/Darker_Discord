@@ -1,0 +1,76 @@
+/* remove avatar layer mask */
+.maskProfile-1ObLFT, .mask-3OgeRz {
+    -webkit-mask: none;
+    mask: none;
+}
+
+/* message avatars */
+.large-3ChYtB {
+    border-radius: 15%;
+}
+/* mini profile popout */
+.image-33JSyf.popout-2fzvxG.maskProfile-1ObLFT.mask-3OgeRz {
+    border-radius: 15%;
+}
+.avatarHint-1qgaV3 {
+    border-radius: 15%;
+}
+
+/* full profile popout */
+.image-33JSyf.profile-ZOdGIb.maskProfile-1ObLFT.mask-3OgeRz {
+    border-radius: 15%;
+}
+
+/* resize avatar*/
+.large-3ChYtB {
+    height: 70px;
+    width: 70px;
+}
+.avatar-17mtNa {
+    margin: -2px 20px 0px;
+}
+
+/* fix message content on avatar resize */
+.contentCozy-3XX413 {
+    margin-left: 110px;
+}
+.containerCozy-jafyvG {
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+/* fix message divider on avatar resize */
+.containerCozy-jafyvG .divider-32i8lo {
+    margin: 50px 20px -35px;
+}
+
+/* fix online status on avatar resize */
+.status-oxiHuE {
+    border-radius: 50%;
+    height: 25%;
+    width: 25%;
+}
+.status-3fQvEa {
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+.offline-3qoTek.status-oxiHuE.large-3ChYtB {
+    border-radius: 50%;
+    height: 25%;
+    width: 25%;
+}
+
+.image-33JSyf.large-3ChYtB.mask-3OgeRz {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.wrapper-2F3Zv8.large-3ChYtB.avatar-3tA6AW {
+    height: 40px;
+    width: 40px;
+}
+.wrapper-2F3Zv8.large-3ChYtB.avatar-xmN5qb {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
