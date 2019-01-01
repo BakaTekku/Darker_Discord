@@ -1,0 +1,40 @@
+/* Smaller Guilds */
+.friendsOnline-_wi_fM {
+    font-size: 10px;
+    width: 30px;
+    margin: 10px -10px;
+}
+.guildSeparator-1X4GQ1 {
+    width: 30px;
+}
+.guildSeparator-1X4GQ1:after {
+    left: 5%;
+    right: 5%;
+}
+.guild-1EfMGQ {
+    height: 30px;
+    width: 30px;
+}
+.guildsWrapper-5TJh6A {
+    width: 55px;
+}
+.guild-1EfMGQ .guildInner-3DSoA4 a {
+    height: 30px;
+    width: 30px;
+}
+.iconSizeLarge-161qtT {
+    height: 30px;
+    width: 30px;
+}
+.noIcon-1a_FrS.iconSizeLarge-161qtT {
+    line-height: 30px;
+}
+.guildsAdd-21_IdK {
+    line-height: 50%;
+}
+.guild-1EfMGQ+.guild-1EfMGQ {
+    margin-top: 6px;
+}
+.scrollerWrap-1IAIlv {
+    width: 65px;
+}
