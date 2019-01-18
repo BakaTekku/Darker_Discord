@@ -67,7 +67,7 @@ img.image-2jyRAK.loaded-3PtF_J {
     background-color: #18191c;
 }
 
-.appMount-3VJmYg { /* .appMount-3lHmkl */
+.appMount-3lHmkl {
     background-color: #121316;
 }
 
@@ -220,7 +220,7 @@ img.image-2jyRAK.loaded-3PtF_J {
     border: none;
 }
 /* Chat messages Content */
-.flex-spacer.flex-vertical { /* .spacer-1fA9zc.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr */
+.spacer-1fA9zc.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr {
     box-shadow: inset 16px 0px 16px -16px rgba(0, 0, 0, .8);
 }
 .theme-dark .messagesWrapper-3lZDfY {
@@ -657,10 +657,8 @@ textarea.has-results .channel-textarea-inner
 .theme-light .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track {
     background-color: #18191c;
 }
-/*search popout*/
-.theme-dark .focused-2bY0OD {
-    background-color: #121316;
-}
+
+/* search popout modal*/
 .theme-dark .container-3ayLPN {
     background-color: #18191c;
     box-shadow: 0 0px 16px #000000;
@@ -673,19 +671,48 @@ textarea.has-results .channel-textarea-inner
     background: -webkit-gradient(linear,left top,right top,from(rgba(35,38,42,0)),color-stop(50%,#121316));
     background: linear-gradient(90deg,rgba(35,38,42,0),#121316 50%);
 }
-/* expand results */
-.theme-dark .search-results-wrap .search-result.expanded {
-    border: 2px solid #0c0c0c;
-}
-.theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit {
-    -webkit-box-sizing: border-box;
-    background-color: #0c0c0c;
-    border-bottom: solid 1px #000;
-    border-top: solid 1px #000;
-}
 .popout {
     padding: 0;
     box-shadow: 0 0px 16px #000000;
+}
+
+/* search results */
+.theme-dark .searchResultsWrap-2DKFzt {
+    background: #121316;
+}
+.theme-dark .searchHeader-1l-wpR {
+    background-color: #121316;
+}
+.channelSeparator-1X1FuH {
+    background: #0c0c0c;
+}
+.theme-dark .channelSeparator-1X1FuH:before {
+    border-color: transparent;
+}
+.theme-dark .channelSeparator-1X1FuH .channelName-1QajIf {
+    background-color: #0c0c0c;
+}
+.theme-dark .searchResult-3pzFAB:before {
+    background-image: none;
+}
+.theme-dark .searchResult-3pzFAB:after {
+    background-image: none;
+}
+.theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA {
+    border: none;
+}
+.theme-dark .searchResult-3pzFAB .hit-NLlWXA {
+    background-color: #18191c;
+    box-shadow: 0px 0px 4px 0px #000000;
+}
+.theme-dark .searchResult-3pzFAB.expanded-v2Szsz {
+    border: none;
+    box-shadow: 0px 0px 4px 0px #000000;
+}
+.theme-dark .searchResult-3pzFAB.expanded-v2Szsz .searchResultMessage-2VxO12.hit-NLlWXA {
+    background-color: #18191c;
+    border-bottom: none;
+    border-top: none;
 }
 
 /* Roles popout*/
