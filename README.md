@@ -1,6 +1,6 @@
 # Darker_Discord
 
-A darker Discord theme made by Night#9471 for use with BeautifulDiscord.
+A darker Discord theme made by Night#6172 for use with BeautifulDiscord.
 
 ## How to Install (Windows)
 <br>**1. Click the following links:** [BD.cmd](https://raw.githubusercontent.com/BakaTekku/Darker_Discord/master/BD.cmd)
@@ -16,8 +16,4 @@ A darker Discord theme made by Night#9471 for use with BeautifulDiscord.
 
 ## Screenshots
 
-![Preview 1](https://i.imgur.com/Lqkxtg5.png)
-
-![Preview 2](https://i.imgur.com/FfVCiEb.png)
-
-![Preview 3](https://i.imgur.com/lL1gEYv.png)
+![Preview 1](https://i.imgur.com/iw9Y0kp.png)
