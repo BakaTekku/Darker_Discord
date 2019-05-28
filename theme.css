@@ -1,7 +1,7 @@
-:root{
-    --primary: #18191c;
-    --secondary: #121316;
-    --secondary-alt: #0d0e10;
+:root {
+  --primary: #18191c;
+  --secondary: #121316;
+  --secondary-alt: #0d0e10;
 }
 
 .appMount-3lHmkl {
@@ -581,7 +581,7 @@ input.inputDefault-_djjkz.input-cIJ7To.size16-14cGz5 {
 }
 
 .theme-dark .menu-Sp6bN1 {
-  background-color: background-color: var(--primary);
+  background-color: var(--primary);
   border-radius: 0px;
   animation: status-picker 600ms ease-in-out;
   box-shadow: 0 0px 2px #000000;
