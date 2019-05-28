@@ -925,6 +925,11 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
     background-color: var(--secondary);
 }
 
+/* keyboard combos */
+.theme-dark .keyboardShortcutsModal-3piNz7 {
+    background-color: var(--primary);
+}
+
 /* add group dm popout */
 .theme-dark .tag-2gHSR7 {
     background: var(--secondary-alt);
