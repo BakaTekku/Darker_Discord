@@ -28,18 +28,16 @@ echo.
 echo Press ENTER to Download Python...
 pause >nul
 start "" "https://www.python.org/ftp/python/3.6.5/python-3.6.5.exe"
-endlocal
-exit
+endlocal & exit
 )
-if exist "Python.exe" python --version 2>NUL
-IF %ERRORLEVEL% NEQ 0 (
+python --version 2>NUL
+if %ERRORLEVEL% NEQ 0 (
 popd
 color 0C
-echo Error^: Python not added to path!
-echo Please re-install and set "Add Python to path" option.
+echo Error^:
+echo Please re-install Python and set "Add Python to path" option.
 pause
-endlocal
-exit
+endlocal & exit
 ) 
 
 :Run_Check
@@ -105,7 +103,7 @@ for /f "delims=" %%I in ('dir /b /s "%windir%\microsoft.net\*csc.exe"') do (
 if not exist "!chooser!" "%%I" /nologo /out:"!chooser!" "%temp%\c.cs" 2>NUL
 )
 del "%temp%\c.cs"
-setlocal disabledelayedexpansion	
+setlocal disabledelayedexpansion  
 for /f "delims=" %%I in ('%chooser%') do endlocal & set Theme=%%I
 if "%Theme%"=="" endlocal & goto Menu
 beautifuldiscord --css "%Theme%"
