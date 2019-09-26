@@ -32,9 +32,17 @@
     background-color: var(--secondary-alt);
 }
 
+.scroller-2TZvBN {
+    background-color: var(--secondary-alt);
+}
+
 /* server menu */
 .hasDropdown-2invhV .header-2o-2hj:hover {
     background-color: var(--secondary);
+}
+
+.clickable-2ap7je .header-2o-2hj:hover, .selected-WP3kCM .header-2o-2hj {
+    background-color: var(--secondary-alt);
 }
 
 /* Notices */
@@ -165,14 +173,11 @@
 }
 
 /* main chat content */
-.theme-dark .chat-3bRxxu {
-    background-color: var(--primary);
-}
-
-.theme-dark .content-yTz4x3,.theme-dark .messagesWrapper-3lZDfY {
+.messages-3amgkR, .chat-3bRxxu {
     background-color: var(--primary);
     box-shadow: inset 16px 0px 16px -16px rgba(0, 0, 0, 0.8);
 }
+
 
 /* clyde local bot message */
 .theme-dark .isLocalBot-38G0P0 {
@@ -352,6 +357,14 @@
 }
 
 /* server overview */
+.sidebarRegionScroller-3MXcoP {
+    background: var(--secondary);
+}
+
+.contentRegionScroller-26nc1e {
+    background-color: var(--primary);
+}
+
 .theme-dark .container-1nZlH6 {
     background-color: var(--secondary);
 }
@@ -464,7 +477,7 @@
 }
 
 /* library */
-.theme-dark .gameLibrary-TTDw4Y,.theme-dark .root-1BQpZw {
+.theme-dark .gameLibrary-TTDw4Y,.theme-dark .root-1BQpZw, .scroller-1IIF0A {
     background-color: var(--primary);
     box-shadow: inset 16px 0px 16px -16px rgba(0,0,0,0.8);
 }
@@ -483,8 +496,14 @@
     border-bottom-color: rgba(0,0,0,.3);
 }
 
+/* gift */
+.scroller-5bBood {
+    background-color: var(--primary);
+    box-shadow: inset 16px 0px 16px -16px rgba(0,0,0,0.8);
+}
+
 /* nitro */
-.theme-dark .applicationStore-1pNvnv {
+.theme-dark .applicationStore-1pNvnv, .scroller-9moviB {
     background-color: var(--primary);
     box-shadow: inset 16px 0px 16px -16px rgba(0,0,0,0.8);
 }
@@ -537,7 +556,29 @@
     border-color: rgba(0,0,0,0.5);
 }
 
+/* direct message */
+.privateChannels-1nO12o {
+    background-color: var(--primary);
+}
+
+.sidebar-2K8pFh, .scroller-1JbKMe {
+    background: var(--primary);
+}
+
+.selected-aXhQR6 .layout-2DM8Md {
+    background-color: var(--secondary-alt);
+}
+
+.clickable-1JJAn8:hover .layout-2DM8Md {
+    background: var(--secondary);
+}
+
 /* friends */
+.friendsTable-133bsv .friendsTableBody-1ZhKif {
+    background-color: var(--primary);
+    box-shadow: inset 16px 0px 16px -16px rgba(0,0,0,0.8);
+}
+
 .theme-dark .container-3gCOGc {
     background-color: var(--primary);
     box-shadow: inset 16px 0px 16px -16px rgba(0,0,0,0.8);
@@ -741,6 +782,10 @@
 }
 
 /* pin & mentions popout */
+.theme-dark .messagesPopout-24nkyi {
+    background-color: var(--primary);
+}
+
 .theme-dark .messagesPopoutWrap-1MQ1bW {
     background-color: var(--primary);
     border: none;
@@ -848,7 +893,7 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
     background-color: var(--secondary);
 }
 
-.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+.theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 {
     background-color: var(--primary);
 }
 
@@ -1015,7 +1060,7 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 }
 
 /* quick switcher */
-.theme-dark .quickswitcher-3JagVE {
+.theme-dark .quickswitcher-3JagVE, .scroller-zPkAnE{
     background-color: var(--primary);
 }
 
@@ -1065,6 +1110,8 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 .theme-dark .quickSelectPopoutOption-opKBx9:hover {
     background-color: var(--secondary);
 }
+
+/* go live */
 
 /* server message scrollbars */
 .scroller-2FKFPG::-webkit-scrollbar-thumb, .scroller-2FKFPG::-webkit-scrollbar-track {
