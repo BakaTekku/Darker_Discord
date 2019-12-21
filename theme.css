@@ -304,11 +304,11 @@
     background-color: var(--secondary);
 }
 
-.scrollableContainer-38zsVD {
+.scrollableContainer-2NUZem {
     background-color: var(--secondary);
 }
 
-.attachWrapper-1_D-pj {
+.attachWrapper-2TRKBi {
     border-right: none;
 }
 
@@ -924,6 +924,14 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 }
 
 /* user status */
+.itemActive-2V2HNc {
+    background-color: var(--secondary-alt);
+}
+
+.itemBase-1Qj4z6:hover {
+    background-color: var(--secondary);
+}
+
 .activity-11LB_k {
     background-color: rgba(0,0,0,0.25);
     padding: 10px;
@@ -937,6 +945,10 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
     color: #fff;
     background-color: #43b581;
     border: none;
+}
+/*user game actvitiy*/
+.activityPanel-28dQGo {
+    border-bottom: solid 1px #090909;
 }
 
 /* full user profile popout */
