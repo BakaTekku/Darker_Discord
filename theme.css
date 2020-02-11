@@ -183,6 +183,10 @@
     box-shadow: inset 16px 0px 16px -16px rgba(0, 0, 0, 0.8);
 }
 
+/* new reaction overlay*/
+.wrapper-2aW0bm {
+    background-color: var(--secondary-alt);
+}
 
 /* clyde local bot message */
 .theme-dark .isLocalBot-38G0P0 {
@@ -613,6 +617,12 @@
 .nowPlayingColumn-2sl4cE {
     background: var(--primary);
     box-shadow: inset 16px 0px 16px -16px rgba(0, 0, 0, 0.8);
+}
+.wrapper-3D2qGf, .theme-dark .inset-3sAvek, .outer-1AjyKL {
+    background-color: var(--secondary) !important;
+}
+.theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
+    background-color: var(--secondary-alt) !important;
 }
 
 /* create or join a server popout */
@@ -1170,11 +1180,6 @@
     width: 64px;
     height: 64px;
 }
-/*.avatar-1BDn8e {
-    border-radius: 14%;
-    width: 64px;
-    height: 64px;
-}*/
 .container-1ov-mD, .containerCozy-336-Cz {
     margin-left: 24px;
 }
