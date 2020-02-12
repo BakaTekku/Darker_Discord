@@ -223,6 +223,9 @@
 .audioControls-2HsaU6, .videoControls-2kcYic {
     background-color: transparent;
 }
+.vertical-1gJnJQ {
+    height: 43px;
+}
 
 .theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
     border: none;
@@ -626,11 +629,11 @@
 }
 
 /* create or join a server popout */
-.theme-dark .wrapper-2ZbzR9 {
+.theme-dark .action-1lSjCi, .theme-light .action-1lSjCi {
     background-color: var(--primary);
 }
 
-.theme-dark .action-1lSjCi {
+.theme-dark .action-1lSjCi, .theme-dark .slideBody-2nMrnU, .theme-light .slideBody-2nMrnU  {
     background: var(--secondary);
 }
 
