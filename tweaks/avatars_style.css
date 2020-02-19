@@ -4,20 +4,6 @@ border-radius:
 change the % as needed
 */
 
-.maskProfile-1ObLFT, .mask-3OgeRz {
-    -webkit-mask: none;
-    mask: none;
-}
-
-.large-3ChYtB {
-    border-radius: 15%;
-}
-.image-33JSyf.popout-2fzvxG.maskProfile-1ObLFT.mask-3OgeRz {
-    border-radius: 15%;
-}
-.avatarHint-1qgaV3 {
-    border-radius: 15%;
-}
-.image-33JSyf.profile-ZOdGIb.maskProfile-1ObLFT.mask-3OgeRz {
+.cozy-3raOZG.groupStart-23k01U.cozyMessage-3V1Y8y.message-2qnXI6 > .container-3FojY8.container-2LR0t2 > .clickableHeader-2Cygs8.header-23xsNx > .avatar-1BDn8e {
     border-radius: 15%;
 }
