@@ -202,10 +202,11 @@
 .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI {
     color: rgba(255,255,255,.6);
 }
+/* use only with avatar size tweaks
 .divider-3_HH5L {
     margin: 5px 0.875rem 8px 5rem;
 }
-
+*/
 
 .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before {
     border-color: #222;
