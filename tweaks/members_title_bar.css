@@ -1,8 +1,4 @@
-.theme-dark .membersGroup-v9BXpm {
-    background: #121316;
-    height: 32px;
-    line-height: 32px;
-    padding-top: 0px;
-    margin: 15px 0 1px 8px;
-    color: #aaa;
+.membersGroup-v9BXpm {
+    background: var(--secondary);
+    padding: 14px 8px 0 16px;
 }

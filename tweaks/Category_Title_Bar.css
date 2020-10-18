@@ -1,4 +1,8 @@
 .wrapper-CU3qI5 {
     background: var(--secondary);
-    margin: 0px 0 1px 8px;
+}
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU, .theme-dark .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh {
+    background-color: transparent;
+    border-bottom: 1px solid;
+    color:#dd0000;
 }
