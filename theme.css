@@ -249,6 +249,11 @@ body,
   background-color: var(--primary);
 }
 
+/*SLASH COMMANDS */
+.theme-dark .pill-1HLSrc {
+    background-color: #000;
+}
+
 /* EMBEDS */
 .embedFull-1HGV2S,
 .wrapper-1HIH0j,
@@ -502,7 +507,8 @@ body,
 }
 /*  reply  */
 .replyBar-1oi75v,
-.threadSuggestionBar-3ExSyc {
+.threadSuggestionBar-3ExSyc,
+.attachedBars-2BCP3l {
   background: var(--secondary-alt);
 }
 /* gif picker  */
