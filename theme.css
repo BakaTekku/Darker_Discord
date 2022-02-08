@@ -136,6 +136,24 @@ body,
   background-color: var(--primary);
 }
 
+/* CHANNEL PERMISSIONS */
+.scroller-3_YDR2 {
+    background-color: var(--primary);
+}
+.card-2EUiNF {
+    background: var(--test);
+}
+.settingCard-xZSDjS,
+.item-4m-12I {
+    background: var(--secondary);
+}
+.passthrough--fbdFR.selected-3jieYB {
+    background-color: var(--secondary-alt);
+}
+.group-LWHoGI {
+    border: 1px solid var(--secondary-alt);
+}
+
 /* USER SETTINGS */
 .theme-dark .notDetected-2HEmAp,
 .theme-light .notDetected-2HEmAp,
