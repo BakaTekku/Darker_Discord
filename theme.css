@@ -31,6 +31,10 @@ path[data-name="Layer 4"] {
 }
 
 /* MAIN CONTAINER */
+.wrapper-3HVHpV,
+.wrapper-15CKyy {
+  background-color: var(--primary);
+}
 .appMount-2yBXZl,
 body,
 .app-2CXKsg,
@@ -612,4 +616,17 @@ body,
 .auto-2K3UW5::-webkit-scrollbar-thumb,
 .auto-2K3UW5::-webkit-scrollbar-track {
   border: 6px solid transparent;
+}
+/* FIREFOX SCROLLBARS */
+.auto-2K3UW5, .auto-2K3UW5.fade-1R6FHN:hover, .auto-2K3UW5.scrolling-20Of9p {
+  scrollbar-color: var(--secondary-alt) var(--primary);
+}
+.auto-2K3UW5 {
+  scrollbar-width: thin;
+}
+.thin-31rlnD.fade-1R6FHN:hover, .thin-31rlnD.scrolling-20Of9p {
+  scrollbar-color: #2f3237 var(--primary);
+}
+.thin-31rlnD {
+  scrollbar-color: transparent transparent;
 }
